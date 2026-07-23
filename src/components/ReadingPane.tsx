@@ -21,7 +21,6 @@ export const ReadingPane: React.FC = () => {
     setSelectedTopicId,
     setSelectedStrongWordId,
     isLoading,
-    apiVerses,
     apiChapters,
     fetchError,
     fetchChapter,
@@ -43,17 +42,12 @@ export const ReadingPane: React.FC = () => {
     ? currentTopic.references.find(ref => ref.bookId === selectedBookId && ref.chapter === selectedChapter)
     : undefined;
 
-  // A chapter is local if we have it in BIBLE_VERSES, and we are either:
-  // 1. Filtering to topic verses that are present in the local database.
-  // 2. Or, if we are NOT in topic mode (meaning we are reading one of the core study chapters like GEN 1, JHN 3),
-  //    use the local verses we have.
-  const isLocal = !!BIBLE_VERSES[versesKey] && (
-    currentTopic && topicRef
-      ? (filterToTopicVerses && BIBLE_VERSES[versesKey].some(v => v.number >= topicRef.verseStart && (topicRef.verseEnd === null || v.number <= topicRef.verseEnd)))
-      : true
-  );
+  // A chapter is local if we have it in BIBLE_VERSES and we want to view the study verses (filterToTopicVerses is true).
+  // If the user chooses to view the "Full Chapter", filterToTopicVerses will be false, so isLocal will be false
+  // and we will load the complete chapter from the API.
+  const isLocal = !!BIBLE_VERSES[versesKey] && filterToTopicVerses;
 
-  const verses = isLocal ? BIBLE_VERSES[versesKey] : apiVerses;
+  const verses = isLocal ? BIBLE_VERSES[versesKey] : (apiChapters[versesKey] || []);
 
   // Reset to true whenever topic, book, or chapter changes
   useEffect(() => {
@@ -191,10 +185,10 @@ export const ReadingPane: React.FC = () => {
 
   // Auto-fetch if not local and not yet fetched
   useEffect(() => {
-    if (!isLocal && !isLoading && apiVerses.length === 0 && !fetchError) {
+    if (!isLocal && !isLoading && !apiChapters[versesKey] && !fetchError) {
       fetchChapter(selectedBookId, selectedChapter);
     }
-  }, [selectedBookId, selectedChapter, isLocal]);
+  }, [selectedBookId, selectedChapter, isLocal, apiChapters, versesKey]);
 
   // If in topical mode, synchronize the active scripture with the first reference initially (if not already set)
   useEffect(() => {
@@ -879,7 +873,7 @@ export const ReadingPane: React.FC = () => {
               </div>
             )}
 
-            {currentTopic && topicRef && !isLoading && !fetchError && verses.length > 0 && (
+            {((currentTopic && topicRef) || !!BIBLE_VERSES[versesKey]) && !isLoading && !fetchError && verses.length > 0 && (
               <div className="flex items-center justify-center space-x-2 mb-6 animate-fade-in">
                 <span className="text-xs font-semibold text-slate-500 dark:text-slate-400 sepia-mode:text-amber-900/70">
                   Reading Mode | 閱讀模式：
@@ -893,7 +887,9 @@ export const ReadingPane: React.FC = () => {
                         : 'text-slate-500 hover:text-slate-700 dark:text-slate-400'
                     }`}
                   >
-                    Topic Verses Only | 僅看主題經文 ({topicRef.verseStart}-{topicRef.verseEnd})
+                    {currentTopic && topicRef 
+                      ? `Topic Verses Only | 僅看主題經文 (${topicRef.verseStart}${topicRef.verseEnd ? `-${topicRef.verseEnd}` : ''})` 
+                      : 'Study Verses Only | 僅看研讀經文'}
                   </button>
                   <button
                     onClick={() => setFilterToTopicVerses(false)}
