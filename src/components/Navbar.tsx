@@ -28,11 +28,13 @@ export const Navbar: React.FC = () => {
   const [showBookDropdown, setShowBookDropdown] = useState(false);
   const [showChapterDropdown, setShowChapterDropdown] = useState(false);
   const [showTopicDropdown, setShowTopicDropdown] = useState(false);
+  const [showSettingsDropdown, setShowSettingsDropdown] = useState(false);
   
   const searchRef = useRef<HTMLDivElement>(null);
   const bookDropdownRef = useRef<HTMLDivElement>(null);
   const chapterDropdownRef = useRef<HTMLDivElement>(null);
   const topicDropdownRef = useRef<HTMLDivElement>(null);
+  const settingsDropdownRef = useRef<HTMLDivElement>(null);
 
   // Close dropdowns on outside click
   useEffect(() => {
@@ -48,6 +50,9 @@ export const Navbar: React.FC = () => {
       }
       if (topicDropdownRef.current && !topicDropdownRef.current.contains(e.target as Node)) {
         setShowTopicDropdown(false);
+      }
+      if (settingsDropdownRef.current && !settingsDropdownRef.current.contains(e.target as Node)) {
+        setShowSettingsDropdown(false);
       }
     };
     document.addEventListener('mousedown', handleOutsideClick);
@@ -179,8 +184,9 @@ export const Navbar: React.FC = () => {
                     setShowBookDropdown(!showBookDropdown);
                     setShowChapterDropdown(false);
                     setShowTopicDropdown(false);
+                    setShowSettingsDropdown(false);
                   }}
-                  className={`flex items-center space-x-1 px-2.5 py-1.5 rounded-md text-xs font-bold transition-all ${
+                  className={`flex items-center space-x-1 px-2.5 py-1.5 rounded-md text-xs font-bold transition-all whitespace-nowrap ${
                     showBookDropdown 
                       ? 'bg-white dark:bg-slate-800 text-indigo-600 dark:text-indigo-400 shadow-sm' 
                       : 'text-slate-800 dark:text-slate-200 sepia-mode:text-amber-900 hover:bg-white/60 dark:hover:bg-slate-800/60'
@@ -229,8 +235,9 @@ export const Navbar: React.FC = () => {
                       setShowChapterDropdown(!showChapterDropdown);
                       setShowBookDropdown(false);
                       setShowTopicDropdown(false);
+                      setShowSettingsDropdown(false);
                     }}
-                    className={`flex items-center space-x-1 px-2.5 py-1.5 rounded-md text-xs font-bold transition-all ${
+                    className={`flex items-center space-x-1 px-2.5 py-1.5 rounded-md text-xs font-bold transition-all whitespace-nowrap ${
                       showChapterDropdown 
                         ? 'bg-white dark:bg-slate-800 text-indigo-600 dark:text-indigo-400 shadow-sm' 
                         : 'text-slate-800 dark:text-slate-200 sepia-mode:text-amber-900 hover:bg-white/60 dark:hover:bg-slate-800/60'
@@ -281,7 +288,12 @@ export const Navbar: React.FC = () => {
             {/* Topics Dropdown */}
             <div className="relative" ref={topicDropdownRef}>
               <button 
-                onClick={() => setShowTopicDropdown(!showTopicDropdown)}
+                onClick={() => {
+                  setShowTopicDropdown(!showTopicDropdown);
+                  setShowBookDropdown(false);
+                  setShowChapterDropdown(false);
+                  setShowSettingsDropdown(false);
+                }}
                 className="flex items-center space-x-1.5 px-3 py-1.5 rounded-lg text-xs font-semibold bg-slate-100 dark:bg-slate-800/60 sepia-mode:bg-card border border-slate-200/50 dark:border-slate-700/30 sepia-mode:border-card hover:bg-slate-200 dark:hover:bg-slate-800 transition-colors"
               >
                 <Compass size={14} className="text-slate-400" />
@@ -396,7 +408,7 @@ export const Navbar: React.FC = () => {
             </div>
 
             {/* Font Size Toggle */}
-            <div className="flex border border-slate-200/50 dark:border-slate-700/30 sepia-mode:border-card rounded-lg overflow-hidden bg-slate-100 dark:bg-slate-800/40 sepia-mode:bg-card p-0.5">
+            <div className="hidden sm:flex border border-slate-200/50 dark:border-slate-700/30 sepia-mode:border-card rounded-lg overflow-hidden bg-slate-100 dark:bg-slate-800/40 sepia-mode:bg-card p-0.5">
               {(['sm', 'md', 'lg', 'xl'] as FontSize[]).map((sz) => (
                 <button
                   key={sz}
@@ -416,7 +428,7 @@ export const Navbar: React.FC = () => {
             </div>
 
             {/* Theme Toggle */}
-            <div className="flex border border-slate-200/50 dark:border-slate-700/30 sepia-mode:border-card rounded-lg overflow-hidden bg-slate-100 dark:bg-slate-800/40 sepia-mode:bg-card p-0.5">
+            <div className="hidden sm:flex border border-slate-200/50 dark:border-slate-700/30 sepia-mode:border-card rounded-lg overflow-hidden bg-slate-100 dark:bg-slate-800/40 sepia-mode:bg-card p-0.5">
               {(['light', 'dark', 'sepia'] as AppTheme[]).map((th) => (
                 <button
                   key={th}
@@ -433,6 +445,93 @@ export const Navbar: React.FC = () => {
                   {th === 'sepia' && <span className="text-[10px]">Sep</span>}
                 </button>
               ))}
+            </div>
+
+            {/* Mobile Settings Button */}
+            <div className="relative sm:hidden" ref={settingsDropdownRef}>
+              <button
+                onClick={() => {
+                  setShowSettingsDropdown(!showSettingsDropdown);
+                  setShowBookDropdown(false);
+                  setShowChapterDropdown(false);
+                  setShowTopicDropdown(false);
+                }}
+                className={`p-2 rounded-lg text-xs font-semibold bg-slate-100 dark:bg-slate-800/60 sepia-mode:bg-card border border-slate-200/50 dark:border-slate-700/30 sepia-mode:border-card hover:bg-slate-200 dark:hover:bg-slate-800 transition-colors flex items-center justify-center ${
+                  showSettingsDropdown 
+                    ? 'bg-white dark:bg-slate-700 sepia-mode:bg-amber-100/80 text-indigo-600 dark:text-indigo-400 shadow-sm' 
+                    : 'text-slate-500 hover:text-slate-700 dark:text-slate-400'
+                }`}
+                title="Settings | 設定"
+              >
+                <Type size={14} />
+              </button>
+
+              {showSettingsDropdown && (
+                <div className="absolute right-0 mt-2 w-64 rounded-xl border border-slate-100 dark:border-slate-800 sepia-mode:border-card bg-white dark:bg-slate-900 sepia-mode:bg-amber-50 shadow-xl p-4 z-50 animate-slide-up flex flex-col space-y-4">
+                  <div>
+                    <span className="block text-[10px] font-bold text-slate-400 uppercase tracking-wider mb-1.5">
+                      Layout | 版面
+                    </span>
+                    <div className="flex border border-slate-200/50 dark:border-slate-700/30 sepia-mode:border-card rounded-lg overflow-hidden bg-slate-100 dark:bg-slate-800/40 sepia-mode:bg-card p-0.5 w-full">
+                      {(['parallel', 'chinese', 'english'] as AppLayout[]).map((lay) => (
+                        <button
+                          key={lay}
+                          onClick={() => setLayout(lay)}
+                          className={`flex-1 py-1.5 rounded-md text-[10px] font-bold capitalize transition-all ${
+                            layout === lay
+                              ? 'bg-white dark:bg-slate-700 sepia-mode:bg-amber-100/80 text-slate-900 dark:text-white sepia-mode:text-amber-950 shadow-sm'
+                              : 'text-slate-400 hover:text-slate-600 dark:hover:text-slate-300'
+                          }`}
+                        >
+                          {lay === 'parallel' ? 'Both' : lay === 'chinese' ? '中' : 'EN'}
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+
+                  <div>
+                    <span className="block text-[10px] font-bold text-slate-400 uppercase tracking-wider mb-1.5">
+                      Font Size | 字型
+                    </span>
+                    <div className="flex border border-slate-200/50 dark:border-slate-700/30 sepia-mode:border-card rounded-lg overflow-hidden bg-slate-100 dark:bg-slate-800/40 sepia-mode:bg-card p-0.5 w-full">
+                      {(['sm', 'md', 'lg', 'xl'] as FontSize[]).map((sz) => (
+                        <button
+                          key={sz}
+                          onClick={() => setFontSize(sz)}
+                          className={`flex-1 py-1.5 rounded-md text-[10px] font-bold uppercase transition-all ${
+                            fontSize === sz
+                              ? 'bg-white dark:bg-slate-700 sepia-mode:bg-amber-100/80 text-slate-900 dark:text-white sepia-mode:text-amber-950 shadow-sm'
+                              : 'text-slate-400 hover:text-slate-600 dark:hover:text-slate-300'
+                          }`}
+                        >
+                          {sz}
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+
+                  <div>
+                    <span className="block text-[10px] font-bold text-slate-400 uppercase tracking-wider mb-1.5">
+                      Theme | 主題
+                    </span>
+                    <div className="flex border border-slate-200/50 dark:border-slate-700/30 sepia-mode:border-card rounded-lg overflow-hidden bg-slate-100 dark:bg-slate-800/40 sepia-mode:bg-card p-0.5 w-full">
+                      {(['light', 'dark', 'sepia'] as AppTheme[]).map((th) => (
+                        <button
+                          key={th}
+                          onClick={() => setTheme(th)}
+                          className={`flex-1 py-1.5 rounded-md text-[10px] font-bold capitalize transition-all ${
+                            theme === th
+                              ? 'bg-white dark:bg-slate-700 sepia-mode:bg-amber-100/80 text-slate-900 dark:text-white sepia-mode:text-amber-950 shadow-sm'
+                              : 'text-slate-400 hover:text-slate-600 dark:hover:text-slate-300'
+                          }`}
+                        >
+                          {th}
+                        </button>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+              )}
             </div>
 
           </div>
