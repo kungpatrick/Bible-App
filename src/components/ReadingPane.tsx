@@ -42,10 +42,16 @@ export const ReadingPane: React.FC = () => {
     ? currentTopic.references.find(ref => ref.bookId === selectedBookId && ref.chapter === selectedChapter)
     : undefined;
 
-  // A chapter is local if we have it in BIBLE_VERSES and we want to view the study verses (filterToTopicVerses is true).
-  // If the user chooses to view the "Full Chapter", filterToTopicVerses will be false, so isLocal will be false
-  // and we will load the complete chapter from the API.
-  const isLocal = !!BIBLE_VERSES[versesKey] && filterToTopicVerses;
+  // A chapter's passage is local if we have it in BIBLE_VERSES, we want to view the study verses (filterToTopicVerses is true),
+  // and the requested verse range is actually present in the local BIBLE_VERSES list.
+  const isLocal = React.useMemo(() => {
+    if (!BIBLE_VERSES[versesKey] || !filterToTopicVerses) return false;
+    const start = topicRef ? topicRef.verseStart : selectedVerseStart;
+    const end = topicRef ? topicRef.verseEnd : selectedVerseEnd;
+    return BIBLE_VERSES[versesKey].some(
+      v => v.number >= start && (end === null || v.number <= end)
+    );
+  }, [versesKey, filterToTopicVerses, topicRef, selectedVerseStart, selectedVerseEnd]);
 
   const verses = isLocal ? BIBLE_VERSES[versesKey] : (apiChapters[versesKey] || []);
 

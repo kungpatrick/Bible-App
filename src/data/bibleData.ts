@@ -322,15 +322,14 @@ export const TOPICS: Topic[] = [
     ]
   },
   {
-    id: 'cleanse-leper',
-    titleEn: '2. Cleansing a Leper',
-    titleZh: '2. 潔淨長大痲瘋的神蹟',
-    descriptionEn: 'Jesus touches and cleanses a man full of leprosy, showing His willingness to touch the untouchable and restore them.',
-    descriptionZh: '耶穌動了慈心，伸手觸摸並潔淨了一個長大痲瘋的人，表明祂樂意醫治社會邊緣被視為不潔的人。',
+    id: 'exorcise-unclean-spirit-capernaum',
+    titleEn: '2. Exorcising an Unclean Spirit in Capernaum',
+    titleZh: '2. 在迦百農會堂趕逐污鬼的神蹟',
+    descriptionEn: 'Jesus teaches with authority in the Capernaum synagogue on the Sabbath and drives out an unclean spirit, demonstrating His authority over demonic powers.',
+    descriptionZh: '耶穌在安息日進了迦百農的會堂大有權柄地施教，並趕出一個附在人身上的污鬼，首次公開彰顯祂對黑暗權勢的絕對主權。',
     references: [
-      { bookId: 'MAT', chapter: 8, verseStart: 1, verseEnd: 4 },
-      { bookId: 'MRK', chapter: 1, verseStart: 40, verseEnd: 45 },
-      { bookId: 'LUK', chapter: 5, verseStart: 12, verseEnd: 16 }
+      { bookId: 'MRK', chapter: 1, verseStart: 21, verseEnd: 28 },
+      { bookId: 'LUK', chapter: 4, verseStart: 31, verseEnd: 37 }
     ]
   },
   {
@@ -358,9 +357,21 @@ export const TOPICS: Topic[] = [
     ]
   },
   {
+    id: 'cleanse-leper',
+    titleEn: '5. Cleansing a Leper',
+    titleZh: '5. 潔淨長大痲瘋的神蹟',
+    descriptionEn: 'Jesus touches and cleanses a man full of leprosy, showing His willingness to touch the untouchable and restore them.',
+    descriptionZh: '耶穌動了慈心，伸手觸摸並潔淨了一個長大痲瘋的人，表明祂樂意醫治社會邊緣被視為不潔的人。',
+    references: [
+      { bookId: 'MAT', chapter: 8, verseStart: 1, verseEnd: 4 },
+      { bookId: 'MRK', chapter: 1, verseStart: 40, verseEnd: 45 },
+      { bookId: 'LUK', chapter: 5, verseStart: 12, verseEnd: 16 }
+    ]
+  },
+  {
     id: 'heal-centurion-servant',
-    titleEn: "5. Healing the Centurion's Servant",
-    titleZh: '5. 醫治百夫長僕人的神蹟',
+    titleEn: "6. Healing the Centurion's Servant",
+    titleZh: '6. 醫治百夫長僕人的神蹟',
     descriptionEn: 'Jesus marvels at the faith of a Roman centurion and heals his paralyzed servant from a distance with a spoken word.',
     descriptionZh: '耶穌稀奇羅馬百夫長莫大的信心，僅憑一句話便隔空醫治了他病得快要死、痛苦不堪的僕人。',
     references: [
@@ -370,8 +381,8 @@ export const TOPICS: Topic[] = [
   },
   {
     id: 'heal-paralytic',
-    titleEn: '6. Jesus Heals a Paralytic',
-    titleZh: '6. 耶穌醫治癱子的神蹟',
+    titleEn: '7. Jesus Heals a Paralytic',
+    titleZh: '7. 耶穌醫治癱子的神蹟',
     descriptionEn: 'Jesus demonstrates His authority to forgive sins by healing a paralyzed man lowered through a roof by his friends.',
     descriptionZh: '耶穌藉著醫治一個被朋友從屋頂縋下的癱子，在眾人面前公開證明祂擁有赦罪的權柄。',
     references: [
@@ -382,8 +393,8 @@ export const TOPICS: Topic[] = [
   },
   {
     id: 'heal-withered-hand',
-    titleEn: '7. Jesus Heals a Withered Hand on the Sabbath',
-    titleZh: '7. 耶穌安息日醫治枯乾手的人',
+    titleEn: '8. Jesus Heals a Withered Hand on the Sabbath',
+    titleZh: '8. 耶穌安息日醫治枯乾手的人',
     descriptionEn: 'Jesus challenges Sabbath traditions by healing a man with a withered hand, showing that doing good is lawful on the Sabbath.',
     descriptionZh: '耶穌在安息日醫治一個手部枯乾的人，以行動表明安息日行善和救命是合乎神心意的。',
     references: [
@@ -394,8 +405,8 @@ export const TOPICS: Topic[] = [
   },
   {
     id: 'raise-widow-son',
-    titleEn: "8. Raising the Widow's Son at Nain",
-    titleZh: '8. 使拿因城寡婦之子復活',
+    titleEn: "9. Raising the Widow's Son at Nain",
+    titleZh: '9. 使拿因城寡婦之子復活',
     descriptionEn: 'Moved with compassion for a grieving widow, Jesus stops a funeral procession and commands the dead young man to sit up and speak.',
     descriptionZh: '耶穌憐憫拿因城痛失獨子的寡婦，上前按住送殯的槓子，吩咐已死的人起來，那人便坐起說話。',
     references: [
@@ -404,8 +415,8 @@ export const TOPICS: Topic[] = [
   },
   {
     id: 'calm-storm',
-    titleEn: '9. Calming the Storm on the Sea',
-    titleZh: '9. 耶穌斥責風浪平靜海面',
+    titleEn: '10. Calming the Storm on the Sea',
+    titleZh: '10. 耶穌斥責風浪平靜海面',
     descriptionEn: 'Jesus rebukes the raging wind and waves during a violent tempest, causing the disciples to marvel at His authority over nature.',
     descriptionZh: '在加利利海陡起暴風時，耶穌斥責風和浪，使風浪立刻平靜，門徒驚奇於連風和水都聽從了祂。',
     references: [
@@ -416,8 +427,8 @@ export const TOPICS: Topic[] = [
   },
   {
     id: 'exorcise-legion',
-    titleEn: '10. Exorcism of Legion (Pigs)',
-    titleZh: '10. 格拉森釋放被群鬼附身的人',
+    titleEn: '11. Exorcism of Legion (Pigs)',
+    titleZh: '11. 格拉森釋放被群鬼附身的人',
     descriptionEn: 'Jesus casts out a legion of demons from a violent man living in the tombs, permitting them to enter a herd of pigs that drown in the sea.',
     descriptionZh: '耶穌將住在墳塋、被稱為「群」的污鬼從一個極其兇猛的人身上趕出，鬼入豬群，豬群墜海淹死。',
     references: [
@@ -428,8 +439,8 @@ export const TOPICS: Topic[] = [
   },
   {
     id: 'heal-bleeding-woman',
-    titleEn: '11. Healing the Woman with Bleeding',
-    titleZh: '11. 醫治患了十二年血漏的女人',
+    titleEn: '12. Healing the Woman with Bleeding',
+    titleZh: '12. 醫治患了十二年血漏的女人',
     descriptionEn: 'A woman suffering from a chronic discharge of blood for twelve years touches the hem of Jesus\' garment in faith and is instantly healed.',
     descriptionZh: '一個患了十二年血漏的女人憑信心摸了耶穌的衣裳縋子，她的漏源立刻乾涸，痊癒得救。',
     references: [
@@ -440,8 +451,8 @@ export const TOPICS: Topic[] = [
   },
   {
     id: 'raise-jairus-daughter',
-    titleEn: "12. Raising Jairus' Daughter from the Dead",
-    titleZh: '12. 使會堂主管睚魯的女兒復活',
+    titleEn: "13. Raising Jairus' Daughter from the Dead",
+    titleZh: '13. 使會堂主管睚魯的女兒復活',
     descriptionEn: 'Jesus enters the home of the synagogue leader Jairus, takes the hand of the dead 12-year-old girl, and commands: "Little girl, arise!"',
     descriptionZh: '耶穌來到睚魯的家，拉著已死去的十二歲女孩的手，吩咐她起來，女孩子的靈魂便立刻回來並站立。',
     references: [
@@ -452,18 +463,29 @@ export const TOPICS: Topic[] = [
   },
   {
     id: 'exorcise-mute-demoniac',
-    titleEn: '13. Exorcising a Mute Demoniac',
-    titleZh: '13. 趕出啞巴鬼使人說話',
+    titleEn: '14. Exorcising a Mute Demoniac',
+    titleZh: '14. 趕出啞巴鬼使人說話',
     descriptionEn: 'Jesus casts out a demon from a man who was mute, enabling him to speak instantly, which amazes the crowds but angers the Pharisees.',
     descriptionZh: '耶穌趕出附在一個啞巴身上的鬼，鬼出去後，啞巴立刻說出話來，眾人都驚奇，法利賽人卻心懷惡意。',
     references: [
-      { bookId: 'MAT', chapter: 9, verseStart: 32, verseEnd: 34 }
+      { bookId: 'MAT', chapter: 9, verseStart: 32, verseEnd: 34 },
+      { bookId: 'LUK', chapter: 11, verseStart: 14, verseEnd: 14 }
+    ]
+  },
+  {
+    id: 'heal-bethesda-invalid',
+    titleEn: '15. Healing the Bethesda Pool Invalid',
+    titleZh: '15. 醫治畢士大池邊癱瘓三十八年的人',
+    descriptionEn: 'On the Sabbath, Jesus heals a man paralyzed for thirty-eight years at the Pool of Bethesda, commanding him to carry his mat.',
+    descriptionZh: '在安息日，耶穌在耶路撒冷畢士大池邊醫治了一個病了三十八年的人，吩咐他拿起褥子行走，引起宗教領袖的不滿。',
+    references: [
+      { bookId: 'JHN', chapter: 5, verseStart: 1, verseEnd: 18 }
     ]
   },
   {
     id: 'feed-5000',
-    titleEn: '14. Feeding the 5,000',
-    titleZh: '14. 五餅二魚使五千人吃飽',
+    titleEn: '16. Feeding the 5,000',
+    titleZh: '16. 五餅二魚使五千人吃飽',
     descriptionEn: 'Jesus multiplies five loaves and two fish to feed over five thousand people in a desolate place, with twelve baskets of leftovers remaining.',
     descriptionZh: '耶穌在野地裡望天祝謝，分開五個大麥餅和兩條小魚，餵飽了五千男丁，收拾的零碎裝滿了十二個籃子。',
     references: [
@@ -475,8 +497,8 @@ export const TOPICS: Topic[] = [
   },
   {
     id: 'walk-on-water',
-    titleEn: '15. Jesus Walking on the Water',
-    titleZh: '15. 耶穌在加利利海面上行走',
+    titleEn: '17. Jesus Walking on the Water',
+    titleZh: '17. 耶穌在加利利海面上行走',
     descriptionEn: 'Jesus walks on the wind-swept Sea of Galilee in the dark to reach His struggling disciples in their boat, and Peter temporarily walks on water.',
     descriptionZh: '在風浪大作的夜間，耶穌在海面上朝向因搖櫓甚苦的門徒走去，彼得也因信在水面上行走了一段。',
     references: [
@@ -486,9 +508,20 @@ export const TOPICS: Topic[] = [
     ]
   },
   {
+    id: 'exorcise-canaanite-woman-daughter',
+    titleEn: "18. Exorcising the Canaanite Woman's Daughter",
+    titleZh: '18. 趕出迦南婦人女兒身上的鬼',
+    descriptionEn: 'Jesus tests and commends the great faith of a Canaanite woman, healing her demon-possessed daughter from a distance.',
+    descriptionZh: '耶穌在推羅、西頓境內考驗並稱讚了一位外邦迦南婦人極大的信心，隨即隔空醫治了她被鬼附、痛苦不堪的女兒。',
+    references: [
+      { bookId: 'MAT', chapter: 15, verseStart: 21, verseEnd: 28 },
+      { bookId: 'MRK', chapter: 7, verseStart: 24, verseEnd: 30 }
+    ]
+  },
+  {
     id: 'feed-4000',
-    titleEn: '16. Feeding the 4,000',
-    titleZh: '16. 七餅與幾條小魚餵飽四千人',
+    titleEn: '19. Feeding the 4,000',
+    titleZh: '19. 七餅與幾條小魚餵飽四千人',
     descriptionEn: 'Compassionate for a crowd that had been with Him for three days, Jesus multiplies seven loaves and a few small fish to feed four thousand.',
     descriptionZh: '耶穌憐憫同祂在曠野待了三天、無物可吃的群眾，用七個餅和幾條小魚餵飽了四千人，零碎裝滿了七個筐子。',
     references: [
@@ -497,19 +530,9 @@ export const TOPICS: Topic[] = [
     ]
   },
   {
-    id: 'heal-bethesda-invalid',
-    titleEn: '17. Healing the Bethesda Pool Invalid',
-    titleZh: '17. 醫治畢士大池邊癱瘓三十八年的人',
-    descriptionEn: 'On the Sabbath, Jesus heals a man paralyzed for thirty-eight years at the Pool of Bethesda, commanding him to carry his mat.',
-    descriptionZh: '在安息日，耶穌在耶路撒冷畢士大池邊醫治了一個病了三十八年的人，吩咐他拿起褥子行走，引起宗教領袖的不滿。',
-    references: [
-      { bookId: 'JHN', chapter: 5, verseStart: 1, verseEnd: 18 }
-    ]
-  },
-  {
     id: 'heal-born-blind',
-    titleEn: '18. Healing the Man Born Blind',
-    titleZh: '18. 醫治生來就瞎眼的人',
+    titleEn: '20. Healing the Man Born Blind',
+    titleZh: '20. 醫治生來就瞎眼的人',
     descriptionEn: 'Jesus spits on the ground to make mud, anoints the eyes of a man born blind, and commands him to wash in the Pool of Siloam.',
     descriptionZh: '耶穌用唾沫和泥抹在生來瞎眼者的眼睛上，打發他往西羅亞池子裡去洗，他洗完後便重見光明。',
     references: [
@@ -518,8 +541,8 @@ export const TOPICS: Topic[] = [
   },
   {
     id: 'raise-lazarus',
-    titleEn: '19. Raising Lazarus from the Dead',
-    titleZh: '19. 使死去四天的拉撒路復活',
+    titleEn: '21. Raising Lazarus from the Dead',
+    titleZh: '21. 使死去四天的拉撒路復活',
     descriptionEn: 'Jesus travels to Bethany, calls out "Lazarus, come out!" to a tomb sealed for four days, demonstrating His power over death.',
     descriptionZh: '耶穌來到拉撒路被葬四天的墳墓前大聲呼叫：「拉撒路出來！」死人就出來了，證明耶穌是復活與生命。',
     references: [
@@ -528,8 +551,8 @@ export const TOPICS: Topic[] = [
   },
   {
     id: 'heal-blind-bartimaeus',
-    titleEn: '20. Healing Blind Bartimaeus',
-    titleZh: '20. 在耶利哥醫治瞎子巴底買',
+    titleEn: '22. Healing Blind Bartimaeus',
+    titleZh: '22. 在耶利哥醫治瞎子巴底買',
     descriptionEn: 'As Jesus leaves Jericho, a persistent blind beggar cries out for mercy. Impressed by his faith, Jesus restores his sight immediately.',
     descriptionZh: '耶穌出耶利哥時，瞎子巴底買大聲呼喊求人子憐憫，耶穌見他的信心，說：「你的信救了你」，他立刻能看見。',
     references: [
@@ -540,8 +563,8 @@ export const TOPICS: Topic[] = [
   },
   {
     id: 'curse-fig-tree',
-    titleEn: '21. Cursing the Withered Fig Tree',
-    titleZh: '21. 咒詛無花果樹使其立刻枯乾',
+    titleEn: '23. Cursing the Withered Fig Tree',
+    titleZh: '23. 咒詛無花果樹使其立刻枯乾',
     descriptionEn: 'Jesus curses a leafy but fruitless fig tree on His way to Jerusalem, which withers by the next morning, teaching a lesson on faith and fruitfulness.',
     descriptionZh: '耶穌在耶路撒冷路上咒詛了一棵葉子茂密卻毫無果子的無花果樹，樹隨即枯乾，以此教導信心與屬靈生命的果效。',
     references: [
@@ -857,14 +880,46 @@ export const COMMENTARIES: Record<string, Commentary> = {
     titleEn: 'Victory Over Grief and Death',
     titleZh: '戰勝悲哀與死亡的權能',
     paragraphsEn: [
-      'Jairus, a ruler of the synagogue, begs Jesus to heal his dying twelve-year-old daughter. Along the way, news arrives that the girl has died, but Jesus encourages Jairus: "Do not fear, only believe."',
-      'Entering the house, Jesus dismisses the professional mourners who laugh at His statement, "The child is not dead but sleeping." Taking only Peter, James, John, and the parents, He enters the room.',
-      'Jesus takes the girl\'s hand and says, "Talitha cumi," which means, "Little girl, I say to you, arise." She immediately stands up and walks, leaving everyone completely astonished. Jesus orders them to give her something to eat, proving she is fully alive.'
+      'Jairus, a ruler of the synagogue, begs Jesus to heal his dying twelve-year-old daughter. Along the way, news arrives that the girl has died, but Jesus encourages Jairus, saying, "Do not fear, only believe."',
+      'Upon arriving at the house, Jesus enters with only Peter, James, John, and the girl\'s parents. He dismisses the mourning crowd, declaring that the child is not dead but sleeping, which draws their laughter and disbelief.',
+      'Taking her by the hand, Jesus speaks the words "Talitha cumi," which means "Little girl, arise." She immediately gets up and walks, completely healed, demonstrating Jesus\' sovereign authority over death itself.'
     ],
     paragraphsZh: [
-      '會堂主管睚魯哀求耶穌去醫治他病危的十二歲女兒。在途中，有人傳來消息說女孩已經死了，但耶穌安慰睚魯說：「不要怕，只要信！」',
-      '進了屋子，耶穌遣散了那些嘲笑祂說「孩子不是死了，是睡著了」的哭喪人群。祂只帶著彼得、雅各、安德烈、約翰和女孩的父母進了房間。',
-      '耶穌拉著女孩的手，對她說：「大利大古米！」（意為：閨女，我吩咐你起來！）。女孩立刻起來行走，眾人極其驚奇。耶穌吩咐給她東西吃，證實她已完全復活並康復。'
+      '會堂主管睚魯前來求耶穌醫治他垂死的十二歲女兒。在去的途中，有人傳來消息說女孩已經死了，但耶穌鼓勵睚魯說：「不要怕，只要信！」',
+      '來到屋子後，耶穌只帶著彼得、雅各、約翰和女孩的父母進去。祂遣散了哀哭的群眾，宣告孩子不是死了，而是睡著了，這卻引起了人們的嘲笑與不信。',
+      '耶穌拉著女孩的手，對她說：「大利大古米」（意即「閨女，我吩咐你起來」）。女孩立刻起來行走，身體完全痊癒，這彰顯了耶穌超越死亡的至高權能。'
+    ]
+  },
+  'exorcise-unclean-spirit-capernaum': {
+    id: 'commentary-exorcise-unclean-spirit-capernaum',
+    passage: 'Mark 1:21-28, Luke 4:31-37',
+    titleEn: 'Exorcising an Unclean Spirit in Capernaum',
+    titleZh: '在迦百農會堂趕逐污鬼',
+    paragraphsEn: [
+      'Jesus begins His public teaching ministry in Capernaum on the Sabbath, and the people are astonished at His teaching because He teaches as one who has authority, and not as the scribes.',
+      'A man with an unclean spirit in the synagogue cries out, recognizing Jesus as the "Holy One of God." Jesus rebukes the demon, commanding it to be silent and come out. The demon convulsed the man and came out with a loud cry, leaving him completely unharmed.',
+      'This miracle highlights the immediate conflict between the Kingdom of God and demonic forces. It establishes Jesus\' supreme authority not only over physical diseases but also over spiritual, unclean realms, causing His fame to spread throughout the region.'
+    ],
+    paragraphsZh: [
+      '耶穌在安息日進了迦百農的會堂開始祂的公眾教導事工，眾人對祂的教訓大感驚奇，因為祂教導人像是有權柄的人，不像文士那樣毫無生氣。',
+      '會堂裡有一個被污鬼附著的人大聲喊叫，認出耶穌是「上帝的聖者」。耶穌斥責污鬼說：「不要作聲，從這人身上出來吧！」污鬼叫那人抽了一陣瘋，大聲喊叫就出來了，那人安然無恙。',
+      '這個神蹟凸顯了上帝的國與黑暗權勢之間的直接衝突。它確立了耶穌無上的權柄——不僅超越肉體的疾病，也超越屬靈界的污穢權勢，使得祂的名聲迅速傳遍了加利利的四方。'
+    ]
+  },
+  'exorcise-canaanite-woman-daughter': {
+    id: 'commentary-exorcise-canaanite-woman-daughter',
+    passage: 'Matthew 15:21-28, Mark 7:24-30',
+    titleEn: 'Great Faith and the Extension of Grace to Gentiles',
+    titleZh: '外邦婦人的大信心與恩典的擴展',
+    paragraphsEn: [
+      'Jesus withdraws to the region of Tyre and Sidon, where a Canaanite woman cries out for her daughter who is severely oppressed by a demon. Initially, Jesus responds with silence and then points to His primary mission to the lost sheep of Israel, using the analogy of not throwing the children\'s bread to the dogs.',
+      'The woman displays profound humility and wit, replying that even the dogs eat the crumbs that fall from their masters\' table. Astonished by her response, Jesus commends her faith—calling it "great faith"—and heals her daughter instantly from a distance.',
+      'This encounter is crucial as it demonstrates that faith, not ethnic descent, is the key to receiving God\'s grace. It foreshadows the full extension of the gospel and healing power to the Gentile world.'
+    ],
+    paragraphsZh: [
+      '耶穌退到推羅、西頓的境內，一個迦南婦人來向祂大聲求救，為她被鬼附得甚苦的女兒哀求。起初，耶穌保持沉默，隨後指出祂的首要使命是尋找以色列家迷失的羊，並用「不好拿兒女的餅丟給狗吃」的喻表來考驗她。',
+      '那婦人展現了極深的謙卑與屬靈智慧，回答說：「主啊，不錯；但狗也吃牠主人桌子上掉下來的碎渣兒。」耶穌為她的信心驚嘆，稱讚她「信心是大的」，並立刻隔空醫治了她的女兒。',
+      '這次相遇至關重要，它表明信靠的心——而非種族血統——才是領受上帝恩典與醫治的關鍵。這也預示了福音與救恩大能即將全面向外邦世界擴展。'
     ]
   },
   'exorcise-mute-demoniac': {
@@ -2441,6 +2496,96 @@ export const TOPICAL_ANALYSES: Record<string, TopicalAnalysis> = {
         cantoneseExplanation: '形容一般植物枯萎係由葉開始黃，但無花果樹受咒詛之後，係直接由地底嘅根部徹底乾死，生命力完全被連根拔起。',
         theologyEn: 'Represents the finality of divine judgment on institutional hypocrisy. When God judges, the facade of false vitality is destroyed from its very foundation.',
         theologyZh: '象徵上帝對虛偽宗教外表的審判是徹底且不可逆的。偽裝的生命力在審判面前，將會從最根基處完全崩潰。'
+      }
+    ]
+  },
+  'exorcise-unclean-spirit-capernaum': {
+    topicId: 'exorcise-unclean-spirit-capernaum',
+    coreHighlightsEn: [
+      { title: 'Authority in Teaching and Deed', content: 'Unlike the scribes who quoted past traditions, Jesus spoke with inherent authority and backed His words with power over spirits.' },
+      { title: 'The Silent Rebuke', content: 'Jesus silences the demon because He refuses to receive testimony from evil sources, preserving the correct timing and nature of His mission.' },
+      { title: 'Spiritual Warfare Commenced', content: 'This event marks the beginning of the spiritual warfare in Jesus\' ministry, showing that the Holy One of God has come to destroy the works of the devil.' }
+    ],
+    coreHighlightsZh: [
+      { title: '教訓與權能的合一', content: '與只援引傳統的文士不同，耶穌帶著自己神聖的權柄說話，並以戰勝黑暗靈界的權能來證實祂的話語。' },
+      { title: '靜默的斥責', content: '耶穌禁止污鬼出聲，因為祂拒絕接受邪惡源頭的見證，以此保守祂彌賽亞事工的正確時機與性質。' },
+      { title: '屬靈爭戰的序幕', content: '此事件標誌著耶穌事工中屬靈爭戰的開始，表明「上帝的聖者」降臨是為了除滅魔鬼的作為，釋放被擄的人。' }
+    ],
+    gospelComparisons: [
+      {
+        aspectEn: 'Presence in Gospels',
+        aspectZh: '福音書收錄情況',
+        matthewTextEn: 'Not recorded as an isolated event in Matthew (though Matthew generalises Jesus\' exorcisms in Capernaum).',
+        matthewTextZh: '馬太福音未單獨收錄此神蹟（但在概括性描述中提到了在迦百農的趕鬼）。',
+        markTextEn: 'Recorded as Jesus\' first miracle/exorcism in Galilee (Mark 1:21-28).',
+        markTextZh: '作為耶穌在加利利施行的第一個神蹟/趕鬼記錄（馬可福音 1:21-28）。',
+        lukeTextEn: 'Recorded in Luke 4:31-37 following His rejection at Nazareth, showing His authority.',
+        lukeTextZh: '收錄於路加福音 4:31-37，緊接在耶穌於拿撒勒被拒絕之後，用以展示祂的權柄。'
+      },
+      {
+        aspectEn: 'Terminology & Details',
+        aspectZh: '術語與細節對比',
+        matthewTextEn: 'N/A',
+        matthewTextZh: '無',
+        markTextEn: 'Emphasizes the "convulsing" of the man and the unclean spirit crying out with a loud voice.',
+        markTextZh: '強調污鬼叫那人「抽了一陣瘋」，並大聲喊叫出來。',
+        lukeTextEn: 'Written from a physician\'s perspective, noting that the demon threw the man down but "had hurt him not" (Luke 4:35).',
+        lukeTextZh: '從醫生路加的角度記述，指出鬼把那人摔倒在眾人中間，「卻沒有傷害他」（路加 4:35）。'
+      }
+    ],
+    cantoneseExplanations: [
+      {
+        phrase: '不要作聲',
+        meaningEn: 'Be silent / Hold your peace',
+        meaningZh: '收聲 / 唔准出聲',
+        cantoneseExplanation: '耶穌命令隻鬼「收聲」，即係唔准佢講嘢。因為鬼雖然知道耶穌係邊個，但耶穌唔想由魔鬼把口幫自己做宣傳，要用自己嘅工作同時間去表露身分。',
+        theologyEn: 'Refusal of demonic witness to prevent premature public excitement or a distorted political view of the Messiah.',
+        theologyZh: '拒絕邪靈的見證，以防止過早引起民眾的政治性彌賽亞狂熱，或歪曲耶穌的屬靈使命。'
+      }
+    ]
+  },
+  'exorcise-canaanite-woman-daughter': {
+    topicId: 'exorcise-canaanite-woman-daughter',
+    coreHighlightsEn: [
+      { title: 'The Test of Silence and Analogies', content: 'Jesus initially responds with silence and then uses the analogy of children and dogs. This was not rejection, but a testing and refining of her faith, drawing out a public declaration of trust.' },
+      { title: 'Great Faith and Humility', content: 'The Canaanite woman accepts Jesus\' designation and replies with humility and wit, arguing that even the dogs eat the crumbs from the table. Jesus marvels and calls it "great faith".' },
+      { title: 'Gentile Inclusion and Distance Healing', content: 'This miracle demonstrates that God\'s saving grace and healing power transcend ethnic borders and physical distance, foreshadowing the inclusion of Gentiles into the covenant.' }
+    ],
+    coreHighlightsZh: [
+      { title: '沉默與比喻的試煉', content: '耶穌起初以沉默應對，隨後用「兒女的餅」與「狗」的比喻來考驗婦人。這並非拒絕，而是為了試煉並提煉她的信心，引導她公開宣告對主的依靠。' },
+      { title: '極大的信心與謙卑', content: '迦南婦人順服地接受了耶穌的話，並以極深的謙卑與智慧回應：「狗也吃桌子上掉下來的碎渣兒」。耶穌大加讚嘆，稱許她為「大信心」。' },
+      { title: '恩典外溢與隔空醫治', content: '這件神蹟表明上帝的救恩恩典與醫治大能跨越了種族邊界與物理距離，預示著外邦人也將被接納進入上帝的立約應許之中。' }
+    ],
+    gospelComparisons: [
+      {
+        aspectEn: 'Socio-Ethnic Context',
+        aspectZh: '社會與種族背景',
+        matthewTextEn: 'Highlights her as a "Canaanite" woman crying out for "Son of David," showing her recognition of the Jewish Messiah despite her pagan background.',
+        matthewTextZh: '稱她為「迦南」婦人，呼喊「大衛的子孫」，強調一個具有悠久敵對歷史的外邦婦人對猶太彌賽亞身份的承認。',
+        markTextEn: 'Describes her as a "Syrophoenician by birth" and notes that Jesus wanted to keep His presence in the house a secret but could not.',
+        markTextZh: '稱她為「敘利腓尼基族」人，並提到耶穌本想在推羅境內的一家隱藏行蹤，卻隱藏不住。',
+        lukeTextEn: 'This miracle is not recorded in Luke.',
+        lukeTextZh: '路加福音完全沒有收錄此神蹟。'
+      },
+      {
+        aspectEn: 'Dialogue with Jesus',
+        aspectZh: '與耶穌的對話細節',
+        matthewTextEn: 'Contains the disciples\' complaint asking Jesus to send her away because she keeps crying out after them, and Jesus\' statement on the lost sheep of Israel.',
+        matthewTextZh: '記述了門徒嫌她吵鬧而央求耶穌趕走她的情節，以及耶穌宣告「我差遣只到以色列家迷失的羊那裡」。',
+        markTextEn: 'Jesus says: "Let the children be fed first, for it is not right to take the children\'s bread...", suggesting a sequence rather than an absolute block.',
+        markTextZh: '耶穌說：「讓兒女們先吃飽，不好拿兒女的餅...」，「先」字暗示了救恩歷史的先後順序，而非絕對的排斥。',
+        lukeTextEn: 'N/A',
+        lukeTextZh: '無'
+      }
+    ],
+    cantoneseExplanations: [
+      {
+        phrase: '狗也吃主人桌子上掉下來的碎渣兒',
+        meaningEn: 'Even the dogs eat the crumbs that fall from their masters\' table',
+        meaningZh: '就算係小狗，都可以食主人檯底掉落黎嘅碎屑',
+        cantoneseExplanation: '婦人極之聰明同謙卑，佢冇反駁耶穌用「小狗」黎形容外邦人，反而順住個比喻講：就算係小狗，都有權食檯底嘅碎渣。呢度比喻佢只求耶穌恩典嘅一點點碎屑，就已經足夠醫好個女。',
+        theologyEn: 'True faith does not demand rights based on merit, but humbly throws itself upon the abundant, overflowing mercy of God.',
+        theologyZh: '真實的信心不憑藉自身的功德去要求權利，而是將自己完全謙卑地投靠在上帝無比豐盛、滿溢流出的恩慈憐憫之中。'
       }
     ]
   }
