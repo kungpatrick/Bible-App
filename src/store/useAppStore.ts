@@ -1,4 +1,5 @@
 import { create } from 'zustand';
+import { persist } from 'zustand/middleware';
 import { Verse } from '../types';
 import { BIBLE_VERSES, BOOKS, TOPICS, ParsedScripture } from '../data/bibleData';
 
@@ -63,8 +64,10 @@ interface AppState {
   stopTts: () => void;
 }
 
-export const useAppStore = create<AppState>((set, get) => ({
-  theme: 'dark', // Slate dark mode by default for high visual excellence
+export const useAppStore = create<AppState>()(
+  persist(
+    (set, get) => ({
+      theme: 'dark', // Slate dark mode by default for high visual excellence
   setTheme: (theme) => {
     // Update HTML class
     const root = window.document.documentElement;
@@ -237,4 +240,24 @@ export const useAppStore = create<AppState>((set, get) => ({
       ttsActiveVerse: null,
     });
   },
-}));
+    }),
+    {
+      name: 'bible-app-storage',
+      partialize: (state) => ({
+        theme: state.theme,
+        layout: state.layout,
+        fontSize: state.fontSize,
+        selectedBookId: state.selectedBookId,
+        selectedChapter: state.selectedChapter,
+        selectedVerseStart: state.selectedVerseStart,
+        selectedVerseEnd: state.selectedVerseEnd,
+        selectedTopicId: state.selectedTopicId,
+        multiPassages: state.multiPassages,
+        activeTab: state.activeTab,
+        ttsLanguage: state.ttsLanguage,
+        ttsRate: state.ttsRate,
+        ttsVoiceURI: state.ttsVoiceURI,
+      }),
+    }
+  )
+);
