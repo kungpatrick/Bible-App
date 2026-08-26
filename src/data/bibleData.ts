@@ -357,9 +357,19 @@ export const TOPICS: Topic[] = [
     ]
   },
   {
+    id: 'first-miraculous-catch',
+    titleEn: '5. First Miraculous Catch of Fish',
+    titleZh: '5. 第一次神奇捕魚',
+    descriptionEn: 'Jesus instructs Simon Peter to cast nets into deep water after a fruitless night of fishing, resulting in a net-breaking catch of fish that leads Peter to follow Him.',
+    descriptionZh: '耶穌在革尼撒勒湖邊吩咐彼得開到水深之處下網打魚，彼得依從主的話下網，圈住許多魚，網險些裂開，隨即撇下一切跟隨耶穌。',
+    references: [
+      { bookId: 'LUK', chapter: 5, verseStart: 1, verseEnd: 11 }
+    ]
+  },
+  {
     id: 'cleanse-leper',
-    titleEn: '5. Cleansing a Leper',
-    titleZh: '5. 潔淨長大痲瘋的神蹟',
+    titleEn: '6. Cleansing a Leper',
+    titleZh: '6. 潔淨長大痲瘋的神蹟',
     descriptionEn: 'Jesus touches and cleanses a man full of leprosy, showing His willingness to touch the untouchable and restore them.',
     descriptionZh: '耶穌動了慈心，伸手觸摸並潔淨了一個長大痲瘋的人，表明祂樂意醫治社會邊緣被視為不潔的人。',
     references: [
@@ -370,8 +380,8 @@ export const TOPICS: Topic[] = [
   },
   {
     id: 'heal-centurion-servant',
-    titleEn: "6. Healing the Centurion's Servant",
-    titleZh: '6. 醫治百夫長僕人的神蹟',
+    titleEn: "7. Healing the Centurion's Servant",
+    titleZh: '7. 醫治百夫長僕人的神蹟',
     descriptionEn: 'Jesus marvels at the faith of a Roman centurion and heals his paralyzed servant from a distance with a spoken word.',
     descriptionZh: '耶穌稀奇羅馬百夫長莫大的信心，僅憑一句話便隔空醫治了他病得快要死、痛苦不堪的僕人。',
     references: [
@@ -381,8 +391,8 @@ export const TOPICS: Topic[] = [
   },
   {
     id: 'heal-paralytic',
-    titleEn: '7. Jesus Heals a Paralytic',
-    titleZh: '7. 耶穌醫治癱子的神蹟',
+    titleEn: '8. Jesus Heals a Paralytic',
+    titleZh: '8. 耶穌醫治癱子的神蹟',
     descriptionEn: 'Jesus demonstrates His authority to forgive sins by healing a paralyzed man lowered through a roof by his friends.',
     descriptionZh: '耶穌藉著醫治一個被朋友從屋頂縋下的癱子，在眾人面前公開證明祂擁有赦罪的權柄。',
     references: [
@@ -393,8 +403,8 @@ export const TOPICS: Topic[] = [
   },
   {
     id: 'heal-withered-hand',
-    titleEn: '8. Jesus Heals a Withered Hand on the Sabbath',
-    titleZh: '8. 耶穌安息日醫治枯乾手的人',
+    titleEn: '9. Jesus Heals a Withered Hand on the Sabbath',
+    titleZh: '9. 耶穌安息日醫治枯乾手的人',
     descriptionEn: 'Jesus challenges Sabbath traditions by healing a man with a withered hand, showing that doing good is lawful on the Sabbath.',
     descriptionZh: '耶穌在安息日醫治一個手部枯乾的人，以行動表明安息日行善和救命是合乎神心意的。',
     references: [
@@ -405,8 +415,8 @@ export const TOPICS: Topic[] = [
   },
   {
     id: 'raise-widow-son',
-    titleEn: "9. Raising the Widow's Son at Nain",
-    titleZh: '9. 使拿因城寡婦之子復活',
+    titleEn: "10. Raising the Widow's Son at Nain",
+    titleZh: '10. 使拿因城寡婦之子復活',
     descriptionEn: 'Moved with compassion for a grieving widow, Jesus stops a funeral procession and commands the dead young man to sit up and speak.',
     descriptionZh: '耶穌憐憫拿因城痛失獨子的寡婦，上前按住送殯的槓子，吩咐已死的人起來，那人便坐起說話。',
     references: [
@@ -415,10 +425,10 @@ export const TOPICS: Topic[] = [
   },
   {
     id: 'calm-storm',
-    titleEn: '10. Calming the Storm on the Sea',
-    titleZh: '10. 耶穌斥責風浪平靜海面',
+    titleEn: '11. Calming the Storm on the Sea',
+    titleZh: '11. 平靜風和海',
     descriptionEn: 'Jesus rebukes the raging wind and waves during a violent tempest, causing the disciples to marvel at His authority over nature.',
-    descriptionZh: '在加利利海陡起暴風時，耶穌斥責風和浪，使風浪立刻平靜，門徒驚奇於連風和水都聽從了祂。',
+    descriptionZh: '在加利利海陡起暴風時，耶穌斥責風和浪，平靜風和海，門徒驚奇於連風和水都聽從了祂。',
     references: [
       { bookId: 'MAT', chapter: 8, verseStart: 23, verseEnd: 27 },
       { bookId: 'MRK', chapter: 4, verseStart: 35, verseEnd: 41 },
@@ -427,8 +437,8 @@ export const TOPICS: Topic[] = [
   },
   {
     id: 'exorcise-legion',
-    titleEn: '11. Exorcism of Legion (Pigs)',
-    titleZh: '11. 格拉森釋放被群鬼附身的人',
+    titleEn: '12. Exorcism of Legion (Pigs)',
+    titleZh: '12. 格拉森釋放被群鬼附身的人',
     descriptionEn: 'Jesus casts out a legion of demons from a violent man living in the tombs, permitting them to enter a herd of pigs that drown in the sea.',
     descriptionZh: '耶穌將住在墳塋、被稱為「群」的污鬼從一個極其兇猛的人身上趕出，鬼入豬群，豬群墜海淹死。',
     references: [
@@ -439,8 +449,8 @@ export const TOPICS: Topic[] = [
   },
   {
     id: 'heal-bleeding-woman',
-    titleEn: '12. Healing the Woman with Bleeding',
-    titleZh: '12. 醫治患了十二年血漏的女人',
+    titleEn: '13. Healing the Woman with Bleeding',
+    titleZh: '13. 醫治患了十二年血漏的女人',
     descriptionEn: 'A woman suffering from a chronic discharge of blood for twelve years touches the hem of Jesus\' garment in faith and is instantly healed.',
     descriptionZh: '一個患了十二年血漏的女人憑信心摸了耶穌的衣裳縋子，她的漏源立刻乾涸，痊癒得救。',
     references: [
@@ -451,8 +461,8 @@ export const TOPICS: Topic[] = [
   },
   {
     id: 'raise-jairus-daughter',
-    titleEn: "13. Raising Jairus' Daughter from the Dead",
-    titleZh: '13. 使會堂主管睚魯的女兒復活',
+    titleEn: "14. Raising Jairus' Daughter from the Dead",
+    titleZh: '14. 使會堂主管睚魯的女兒復活',
     descriptionEn: 'Jesus enters the home of the synagogue leader Jairus, takes the hand of the dead 12-year-old girl, and commands: "Little girl, arise!"',
     descriptionZh: '耶穌來到睚魯的家，拉著已死去的十二歲女孩的手，吩咐她起來，女孩子的靈魂便立刻回來並站立。',
     references: [
@@ -463,8 +473,8 @@ export const TOPICS: Topic[] = [
   },
   {
     id: 'exorcise-mute-demoniac',
-    titleEn: '14. Exorcising a Mute Demoniac',
-    titleZh: '14. 趕出啞巴鬼使人說話',
+    titleEn: '15. Exorcising a Mute Demoniac',
+    titleZh: '15. 趕出啞巴鬼使人說話',
     descriptionEn: 'Jesus casts out a demon from a man who was mute, enabling him to speak instantly, which amazes the crowds but angers the Pharisees.',
     descriptionZh: '耶穌趕出附在一個啞巴身上的鬼，鬼出去後，啞巴立刻說出話來，眾人都驚奇，法利賽人卻心懷惡意。',
     references: [
@@ -474,8 +484,8 @@ export const TOPICS: Topic[] = [
   },
   {
     id: 'heal-bethesda-invalid',
-    titleEn: '15. Healing the Bethesda Pool Invalid',
-    titleZh: '15. 醫治畢士大池邊癱瘓三十八年的人',
+    titleEn: '16. Healing the Bethesda Pool Invalid',
+    titleZh: '16. 醫治畢士大池邊癱瘓三十八年的人',
     descriptionEn: 'On the Sabbath, Jesus heals a man paralyzed for thirty-eight years at the Pool of Bethesda, commanding him to carry his mat.',
     descriptionZh: '在安息日，耶穌在耶路撒冷畢士大池邊醫治了一個病了三十八年的人，吩咐他拿起褥子行走，引起宗教領袖的不滿。',
     references: [
@@ -484,10 +494,10 @@ export const TOPICS: Topic[] = [
   },
   {
     id: 'feed-5000',
-    titleEn: '16. Feeding the 5,000',
-    titleZh: '16. 五餅二魚使五千人吃飽',
+    titleEn: '17. Feeding the 5,000',
+    titleZh: '17. 五餅二魚餵飽五千人',
     descriptionEn: 'Jesus multiplies five loaves and two fish to feed over five thousand people in a desolate place, with twelve baskets of leftovers remaining.',
-    descriptionZh: '耶穌在野地裡望天祝謝，分開五個大麥餅和兩條小魚，餵飽了五千男丁，收拾的零碎裝滿了十二個籃子。',
+    descriptionZh: '耶穌在野地裡望天祝謝，分開五個大麥餅和兩條小魚，五餅二魚餵飽五千人，收拾的零碎裝滿了十二個籃子。',
     references: [
       { bookId: 'MAT', chapter: 14, verseStart: 13, verseEnd: 21 },
       { bookId: 'MRK', chapter: 6, verseStart: 30, verseEnd: 44 },
@@ -497,10 +507,10 @@ export const TOPICS: Topic[] = [
   },
   {
     id: 'walk-on-water',
-    titleEn: '17. Jesus Walking on the Water',
-    titleZh: '17. 耶穌在加利利海面上行走',
+    titleEn: '18. Jesus Walking on the Water',
+    titleZh: '18. 在海面上行走',
     descriptionEn: 'Jesus walks on the wind-swept Sea of Galilee in the dark to reach His struggling disciples in their boat, and Peter temporarily walks on water.',
-    descriptionZh: '在風浪大作的夜間，耶穌在海面上朝向因搖櫓甚苦的門徒走去，彼得也因信在水面上行走了一段。',
+    descriptionZh: '在風浪大作的夜間，耶穌在海面上行走朝向因搖櫓甚苦的門徒走去，彼得也因信在水面上行走了一段。',
     references: [
       { bookId: 'MAT', chapter: 14, verseStart: 22, verseEnd: 33 },
       { bookId: 'MRK', chapter: 6, verseStart: 45, verseEnd: 52 },
@@ -509,8 +519,8 @@ export const TOPICS: Topic[] = [
   },
   {
     id: 'exorcise-canaanite-woman-daughter',
-    titleEn: "18. Exorcising the Canaanite Woman's Daughter",
-    titleZh: '18. 趕出迦南婦人女兒身上的鬼',
+    titleEn: "19. Exorcising the Canaanite Woman's Daughter",
+    titleZh: '19. 趕出迦南婦人女兒身上的鬼',
     descriptionEn: 'Jesus tests and commends the great faith of a Canaanite woman, healing her demon-possessed daughter from a distance.',
     descriptionZh: '耶穌在推羅、西頓境內考驗並稱讚了一位外邦迦南婦人極大的信心，隨即隔空醫治了她被鬼附、痛苦不堪的女兒。',
     references: [
@@ -520,8 +530,8 @@ export const TOPICS: Topic[] = [
   },
   {
     id: 'feed-4000',
-    titleEn: '19. Feeding the 4,000',
-    titleZh: '19. 七餅與幾條小魚餵飽四千人',
+    titleEn: '20. Feeding the 4,000',
+    titleZh: '20. 七餅與幾條小魚餵飽四千人',
     descriptionEn: 'Compassionate for a crowd that had been with Him for three days, Jesus multiplies seven loaves and a few small fish to feed four thousand.',
     descriptionZh: '耶穌憐憫同祂在曠野待了三天、無物可吃的群眾，用七個餅和幾條小魚餵飽了四千人，零碎裝滿了七個筐子。',
     references: [
@@ -531,8 +541,8 @@ export const TOPICS: Topic[] = [
   },
   {
     id: 'heal-born-blind',
-    titleEn: '20. Healing the Man Born Blind',
-    titleZh: '20. 醫治生來就瞎眼的人',
+    titleEn: '21. Healing the Man Born Blind',
+    titleZh: '21. 醫治生來就瞎眼的人',
     descriptionEn: 'Jesus spits on the ground to make mud, anoints the eyes of a man born blind, and commands him to wash in the Pool of Siloam.',
     descriptionZh: '耶穌用唾沫和泥抹在生來瞎眼者的眼睛上，打發他往西羅亞池子裡去洗，他洗完後便重見光明。',
     references: [
@@ -541,8 +551,8 @@ export const TOPICS: Topic[] = [
   },
   {
     id: 'raise-lazarus',
-    titleEn: '21. Raising Lazarus from the Dead',
-    titleZh: '21. 使死去四天的拉撒路復活',
+    titleEn: '22. Raising Lazarus from the Dead',
+    titleZh: '22. 使死去四天的拉撒路復活',
     descriptionEn: 'Jesus travels to Bethany, calls out "Lazarus, come out!" to a tomb sealed for four days, demonstrating His power over death.',
     descriptionZh: '耶穌來到拉撒路被葬四天的墳墓前大聲呼叫：「拉撒路出來！」死人就出來了，證明耶穌是復活與生命。',
     references: [
@@ -551,8 +561,8 @@ export const TOPICS: Topic[] = [
   },
   {
     id: 'heal-blind-bartimaeus',
-    titleEn: '22. Healing Blind Bartimaeus',
-    titleZh: '22. 在耶利哥醫治瞎子巴底買',
+    titleEn: '23. Healing Blind Bartimaeus',
+    titleZh: '23. 在耶利哥醫治瞎子巴底買',
     descriptionEn: 'As Jesus leaves Jericho, a persistent blind beggar cries out for mercy. Impressed by his faith, Jesus restores his sight immediately.',
     descriptionZh: '耶穌出耶利哥時，瞎子巴底買大聲呼喊求人子憐憫，耶穌見他的信心，說：「你的信救了你」，他立刻能看見。',
     references: [
@@ -563,8 +573,8 @@ export const TOPICS: Topic[] = [
   },
   {
     id: 'curse-fig-tree',
-    titleEn: '23. Cursing the Withered Fig Tree',
-    titleZh: '23. 咒詛無花果樹使其立刻枯乾',
+    titleEn: '24. Cursing the Withered Fig Tree',
+    titleZh: '24. 咒詛無花果樹使其立刻枯乾',
     descriptionEn: 'Jesus curses a leafy but fruitless fig tree on His way to Jerusalem, which withers by the next morning, teaching a lesson on faith and fruitfulness.',
     descriptionZh: '耶穌在耶路撒冷路上咒詛了一棵葉子茂密卻毫無果子的無花果樹，樹隨即枯乾，以此教導信心與屬靈生命的果效。',
     references: [
@@ -893,8 +903,8 @@ export const COMMENTARIES: Record<string, Commentary> = {
   'exorcise-unclean-spirit-capernaum': {
     id: 'commentary-exorcise-unclean-spirit-capernaum',
     passage: 'Mark 1:21-28, Luke 4:31-37',
-    titleEn: 'Exorcising an Unclean Spirit in Capernaum',
-    titleZh: '在迦百農會堂趕逐污鬼',
+    titleEn: '14. Exorcising an Unclean Spirit in Capernaum',
+    titleZh: '14. 在迦百農會堂趕逐污鬼',
     paragraphsEn: [
       'Jesus begins His public teaching ministry in Capernaum on the Sabbath, and the people are astonished at His teaching because He teaches as one who has authority, and not as the scribes.',
       'A man with an unclean spirit in the synagogue cries out, recognizing Jesus as the "Holy One of God." Jesus rebukes the demon, commanding it to be silent and come out. The demon convulsed the man and came out with a loud cry, leaving him completely unharmed.',
@@ -1138,6 +1148,17 @@ export const BIBLE_VERSES: Record<string, Verse[]> = {
     { number: 12, textEn: 'And he rose and immediately picked up his bed and went out before them all, so that they were all amazed and glorified God, saying, "We never saw anything like this!"', textZh: '那人就起來，立刻拿著褥子，當眾人面前出去了，以致眾人都驚奇，歸榮耀給神，說：「我們從來沒有見過這樣的事！」' }
   ],
   'LUK:5': [
+    { number: 1, textEn: 'On one occasion, while the crowd was pressing in on him to hear the word of God, he was standing by the lake of Gennesaret,', textZh: '耶穌站在革尼撒勒湖邊，眾人擁擠祂，要聽神的道。' },
+    { number: 2, textEn: 'and he saw two boats by the lake, but the fishermen had gone out of them and were washing their nets.', textZh: '祂見有兩隻船灣在湖邊；打魚的人卻離開船洗網去了。' },
+    { number: 3, textEn: 'Getting into one of the boats, which was Simon\'s, he asked him to put out a little from the land. And he sat down and taught the people from the boat.', textZh: '有一隻船是西門的，耶穌就上這隻船，請他把船稍微開離岸，就坐下，從船上教訓眾人。' },
+    { number: 4, textEn: 'And when he had finished speaking, he said to Simon, "Put out into the deep and let down your nets for a catch."', textZh: '講完了，對西門說：「把船開到水深之處，下網打魚。」' },
+    { number: 5, textEn: 'And Simon answered, "Master, we toiled all night and took nothing! But at your word I will let down the nets."', textZh: '西門回答說：「夫子，我們整夜勞力，並沒有打著什麼。但依從你的話，我就下網。」' },
+    { number: 6, textEn: 'And when they had done this, they enclosed a large number of fish, and their nets were breaking.', textZh: '他們下了網，就圈住許多魚，網險些裂開，' },
+    { number: 7, textEn: 'They signaled to their partners in the other boat to come and help them. And they came and filled both the boats, so that they began to sink.', textZh: '便招呼那隻船上的同伴來幫忙。他們就來，把魚裝滿了兩隻船，甚至船險些沉下去。' },
+    { number: 8, textEn: 'But when Simon Peter saw it, he fell down at Jesus\' knees, saying, "Depart from me, for I am a sinful man, O Lord."', textZh: '西門彼得看見，就俯伏在耶穌膝前，說：「主啊，離開我，我是個罪人！」' },
+    { number: 9, textEn: 'For he and all who were with him were astonished at the catch of fish that they had taken,', textZh: '他和一切同在的人都驚駭於所打的許多魚。' },
+    { number: 10, textEn: 'and so also were James and John, sons of Zebedee, who were partners with Simon. And Jesus said to Simon, "Do not be afraid; from now on you will be catching men."', textZh: '西門的同伴，西庇太的兒子雅各、約翰，也是這樣。耶穌對西門說：「不要怕！從今以後，你要得人了。」' },
+    { number: 11, textEn: 'And when they had brought their boats to land, they left everything and followed him.', textZh: '他們把兩隻船普上岸，就撇下所有的，跟隨了耶穌。' },
     { number: 17, textEn: 'On one of those days, as he was teaching, Pharisees and teachers of the law were sitting there, who had come from every village of Galilee and Judea and from Jerusalem. And the power of the Lord was with him to heal.', textZh: '有一天，耶穌教訓人，有法利賽人和律法師在旁邊坐著；他們是從加利利各鄉村和猶太並耶路撒冷來的。主的能力與耶穌同在，使祂能醫治人。' },
     { number: 18, textEn: 'And behold, some men were bringing on a bed a man who was paralyzed, and they were seeking to bring him in and lay him before Jesus,', textZh: '有人用褥子抬著一個癱子，要抬進去放在耶穌面前，' },
     { number: 19, textEn: 'but finding no way to bring him in, because of the crowd, they went up on the roof and let him down with his bed through the tiles into the midst before Jesus.', textZh: '卻因人多，尋不出法子抬進去，就上房頂，從瓦間把他連褥子縋到當中，正在耶穌面前。' },
@@ -1148,6 +1169,108 @@ export const BIBLE_VERSES: Record<string, Verse[]> = {
     { number: 24, textEn: 'But that you may know that the Son of Man has authority on earth to forgive sins"—he said to the man who was paralyzed—"I say to you, rise, pick up your bed and go home."', textZh: '「但要叫你們知道，人子在地上有赦罪的權柄。」就對癱子說：「我吩咐你，起來，拿你的褥子回家去吧！」' },
     { number: 25, textEn: 'And immediately he rose up before them and picked up what he had been lying on and went home, glorifying God.', textZh: '那人當眾人面前立刻起來，拿著他所躺臥的褥子回家去了，歸榮耀給神。' },
     { number: 26, textEn: 'And amazement seized them all, and they glorified God and were filled with awe, saying, "We have seen extraordinary things today."', textZh: '眾人都驚奇，也歸榮耀給神，並且滿心懼怕，說：「我們今日看見非常的事了。」' }
+  ],
+  'MAT:8': [
+    { number: 23, textEn: 'And when he got into the boat, his disciples followed him.', textZh: '耶穌上了船，門徒跟著祂。' },
+    { number: 24, textEn: 'And behold, there arose a great storm on the sea, so that the boat was being swamped by the waves; but he was asleep.', textZh: '海上忽然起了暴風，甚至船被波浪掩蓋；耶穌卻睡著了。' },
+    { number: 25, textEn: 'And they went and woke him, saying, "Save us, Lord; we are perishing."', textZh: '門徒來叫醒了祂，說：「主啊，救我們，我們喪命啦！」' },
+    { number: 26, textEn: 'And he said to them, "Why are you afraid, O you of little faith?" Then he rose and rebuked the winds and the sea, and there was a great calm.', textZh: '耶穌對他們說：「你們這小信的人哪，為什麼膽怯呢？」於是起來，斥責風和海，風和海就大大地平靜了。' },
+    { number: 27, textEn: 'And the men marveled, saying, "What sort of man is this, that even winds and sea obey him?"', textZh: '眾人驚奇，說：「這是怎樣的人？連風和海也聽從祂了！」' }
+  ],
+  'MRK:4': [
+    { number: 35, textEn: 'On that day, when evening had come, he said to them, "Let us go across to the other side."', textZh: '當天晚上，耶穌對門徒說：「我們渡到對岸去吧。」' },
+    { number: 36, textEn: 'And leaving the crowd, they took him with them in the boat, just as he was. And other boats were with him.', textZh: '門徒離開眾人，耶穌表在船上，他們就把祂一同帶去；也有別的船和祂同行。' },
+    { number: 37, textEn: 'And a great windstorm arose, and the waves were breaking into the boat, so that the boat was already filling.', textZh: '忽然狂風大作，波浪打入船內，甚至船要滿了水。' },
+    { number: 38, textEn: 'But he was in the stern, asleep on the cushion. And they woke him and said to him, "Teacher, do you not care that we are perishing?"', textZh: '耶穌在船尾上，枕著枕頭睡覺。門徒叫醒了祂，說：「夫子！我們喪命，你不管嗎？」' },
+    { number: 39, textEn: 'And he awoke and rebuked the wind and said to the sea, "Peace! Be still!" And the wind ceased, and there was a great calm.', textZh: '耶穌醒了，斥責風，向海說：「住了吧！靜了吧！」風就止住，大大地平靜了。' },
+    { number: 40, textEn: 'He said to them, "Why are you so afraid? Have you still no faith?"', textZh: '耶穌對他們說：「為什麼膽怯？你們還沒有信心嗎？」' },
+    { number: 41, textEn: 'And they were filled with great fear and said to one another, "Who then is this, that even the wind and the sea obey him?"', textZh: '他們就大大地懼怕，彼此說：「這到底是誰，連風和海也聽從祂了。」' }
+  ],
+  'LUK:8': [
+    { number: 22, textEn: 'One day he got into a boat with his disciples, and he said to them, "Let us go across to the other side of the lake." So they set out,', textZh: '有一天，耶穌和門徒上了船，對門徒說：「我們可以渡到湖對岸去。」他們就開了船。' },
+    { number: 23, textEn: 'and as they sailed he fell asleep. And a windstorm came down on the lake, and they were filling with water and were in danger.', textZh: '正行的時候，耶穌睡著了。湖上忽然起了暴風，船將滿了水，甚是危險。' },
+    { number: 24, textEn: 'And they went and woke him, saying, "Master, Master, we are perishing!" And he awoke and rebuked the wind and the raging waves, and they ceased, and there was a calm.', textZh: '門徒來叫醒了祂，說：「夫子！夫子！我們喪命啦！」耶穌醒了，斥責風浪；風浪就止住，平靜了。' },
+    { number: 25, textEn: 'He said to them, "Where is your faith?" And they were afraid, and they marveled, saying to one another, "Who then is this, that he commands even winds and water, and they obey him?"', textZh: '耶穌對他們說：「你們的信心在哪裡呢？」門徒又懼怕又驚奇，彼此說：「這到底是誰？祂吩咐風和水，連風和水也聽從祂了。」' }
+  ],
+  'MAT:14': [
+    { number: 13, textEn: 'Now when Jesus heard this, he withdrew from there in a boat to a desolate place by himself. But when the crowds heard it, they followed him on foot from the towns.', textZh: '耶穌聽見了，就上船離開那裡，獨自往野地裡去。眾人聽見，就從各城裡步行跟隨祂。' },
+    { number: 14, textEn: 'When he went ashore he saw a great crowd, and he had compassion on them and healed their sick.', textZh: '耶穌出來，看見許多的人，就憐憫他們，治好了他們的病人。' },
+    { number: 15, textEn: 'Now when it was evening, the disciples came to him and said, "This is a desolate place, and the day is now over; send the crowds away to go into the villages and buy food for themselves."', textZh: '天將晚的時候，門徒進前來說：「這是野地，時候已經過了，請叫眾人散開，他們好往村子裡去，自己買食物。」' },
+    { number: 16, textEn: 'But Jesus said, "They need not go away; you give them something to eat."', textZh: '耶穌說：「不用他們去，你們給他們吃吧！」' },
+    { number: 17, textEn: 'They said to him, "We have only five loaves here and two fish."', textZh: '門徒說：「我們這裡只有五個餅，兩條魚。」' },
+    { number: 18, textEn: 'And he said, "Bring them here to me."', textZh: '耶穌說：「拿過來給我。」' },
+    { number: 19, textEn: 'Then he ordered the crowds to sit down on the grass, and taking the five loaves and the two fish, he looked up to heaven and said a blessing. Then he broke the loaves and gave them to the disciples, and the disciples gave them to the crowds.', textZh: '吩咐眾人坐在草地上，就拿著這五個餅，兩條魚，望著天祝福，擘開餅，遞給門徒，門徒又遞給眾人。' },
+    { number: 20, textEn: 'And they all ate and were satisfied. And they took up twelve baskets full of the broken pieces left over.', textZh: '他們都吃，並且吃飽了；把剩下的零碎收拾起來，裝滿了十二個籃子。' },
+    { number: 21, textEn: 'And those who ate were about five thousand men, besides women and children.', textZh: '吃的人，除了婦女孩子，約有五千。' },
+    { number: 22, textEn: 'Immediately he made the disciples get into the boat and go before him to the other side, while he dismissed the crowds.', textZh: '耶穌隨即催門徒上船，先渡到對岸去，等祂叫眾人散開。' },
+    { number: 23, textEn: 'And after he had dismissed the crowds, he went up on the mountain by himself to pray. When evening came, he was there alone,', textZh: '散了眾人以後，祂就獨自上山去禱告。到了晚上，只有祂一人在那裡。' },
+    { number: 24, textEn: 'but the boat by this time was a long distance from the land, beaten by the waves, for the wind was against them.', textZh: '那時船在海中，因風不順，被浪搖撼。' },
+    { number: 25, textEn: 'And in the fourth watch of the night he came to them, walking on the sea.', textZh: '夜裡四更天，耶穌在海面上走，往門徒那裡去。' },
+    { number: 26, textEn: 'But when the disciples saw him walking on the sea, they were terrified, and said, "It is a ghost!" and they cried out in fear.', textZh: '門徒看見祂在海面上走，就驚慌了，說：「是個幽靈！」便害怕，喊叫起來。' },
+    { number: 27, textEn: 'But immediately Jesus spoke to them, saying, "Take heart; it is I. Do not be afraid."', textZh: '耶穌連忙對他們說：「你們放心，是我，不要怕！」' },
+    { number: 28, textEn: 'And Peter answered him, "Lord, if it is you, command me to come to you on the water."', textZh: '彼得回答說：「主，如果是你，請叫我從水面上走到你那裡去。」' },
+    { number: 29, textEn: 'He said, "Come." So Peter got out of the boat and walked on the water and came toward Jesus.', textZh: '耶穌說：「你來吧。」彼得就從船上下去，在水面上走，要到耶穌那裡去；' },
+    { number: 30, textEn: 'But when he saw the wind, he was afraid, and beginning to sink he cried out, "Lord, save me."', textZh: '只因見風甚大，就害怕，將要沉下去，便喊著說：「主啊，救我！」' },
+    { number: 31, textEn: 'Jesus immediately reached out his hand and took hold of him, saying to him, "O you of little faith, why did you doubt?"', textZh: '耶穌立刻伸手拉住他，說：「你這小信的人哪，為什麼疑惑呢？」' },
+    { number: 32, textEn: 'And when they got into the boat, the wind ceased.', textZh: '他們上了船，風就止住了。' },
+    { number: 33, textEn: 'And those in the boat worshiped him, saying, "Truly you are the Son of God."', textZh: '在船上的人都拜祂，說：「你真是神的兒子了。」' }
+  ],
+  'MRK:6': [
+    { number: 30, textEn: 'The apostles returned to Jesus and told him all that they had done and taught.', textZh: '使徒聚集到耶穌那裡，將一切所做的事、所傳的道全告訴祂。' },
+    { number: 31, textEn: 'And he said to them, "Come away by yourselves to a desolate place and rest a while." For many were coming and going, and they had no leisure even to eat.', textZh: '祂就說：「你們同我暗暗地到野地裡去歇一歇。」這是因為來往的人多，他們連吃飯也沒有工夫。' },
+    { number: 32, textEn: 'And they went away in the boat to a desolate place by themselves.', textZh: '他們就坐船，暗暗地往野地裡去。' },
+    { number: 33, textEn: 'Now many saw them going and recognized them, and they ran there on foot from all the towns and got there ahead of them.', textZh: '眾人看見他們去，有許多認識他們的，就從各城步行，一同跑到那裡，比他們先到了。' },
+    { number: 34, textEn: 'When he went ashore he saw a great crowd, and he had compassion on them, because they were like sheep without a shepherd. And he began to teach them many things.', textZh: '耶穌出來，看見許多的人，就憐憫他們，因為他們如同羊沒有牧人一般，於是開口教訓他們許多道理。' },
+    { number: 35, textEn: 'And when it grew late, his disciples came to him and said, "This is a desolate place, and the hour is now late."', textZh: '天已經晚了，門徒進前來說：「這是野地，天已經晚了，' },
+    { number: 36, textEn: 'Send them away to go into the surrounding countryside and villages and buy themselves something to eat.', textZh: '請叫眾人散開，他們好往周圍鄉村子裡去，自己買什麼吃。」' },
+    { number: 37, textEn: 'But he answered them, "You give them something to eat." And they said to him, "Shall we go and buy two hundred denarii worth of bread and give it to them to eat?"', textZh: '耶穌回答說：「你們給他們吃吧。」門徒說：「我們可以去買二十塊錢的餅給他們吃嗎？」' },
+    { number: 38, textEn: 'And he said to them, "How many loaves do you have? Go and see." And when they had found out, they said, "Five, and two fish."', textZh: '耶穌說：「你們有多少餅？去看看。」他們知道了，就說：「五個餅，兩條魚。」' },
+    { number: 39, textEn: 'Then he commanded them all to sit down in groups on the green grass.', textZh: '耶穌吩咐他們，叫眾人一組一組地坐在青草地上。' },
+    { number: 40, textEn: 'So they sat down in groups, by hundreds and by fifties.', textZh: '眾人就一行一行地坐下，有一百的，有五十的。' },
+    { number: 41, textEn: 'And taking the five loaves and the two fish, he looked up to heaven and said a blessing and broke the loaves and gave them to the disciples to set before the people. And he divided the two fish among them all.', textZh: '耶穌拿著這五個餅，兩條魚，望著天祝福，擘開餅，遞給門徒，擺在眾人面前，也把那兩條魚分給眾人。' },
+    { number: 42, textEn: 'And they all ate and were satisfied.', textZh: '他們都吃，並且吃飽了。' },
+    { number: 43, textEn: 'And they took up twelve baskets full of broken pieces and of the fish.', textZh: '門徒收拾零碎的餅塊和魚，裝滿了十二個籃子。' },
+    { number: 44, textEn: 'And those who ate the loaves were five thousand men.', textZh: '吃餅的男人共有五千。' },
+    { number: 45, textEn: 'Immediately he made his disciples get into the boat and go before him to the other side, to Bethsaida, while he dismissed the crowd.', textZh: '耶穌隨即催門徒上船，先渡到對岸伯賽大去，等祂叫眾人散開。' },
+    { number: 46, textEn: 'And after he had taken leave of them, he went up on the mountain to pray.', textZh: '祂既辭別了他們，就往山上去禱告。' },
+    { number: 47, textEn: 'And when evening came, the boat was out on the sea, and he was alone on the land.', textZh: '到了晚上，船在海中，耶穌獨自在岸上；' },
+    { number: 48, textEn: 'And he saw that they were making headway painfully, for the wind was against them. And about the fourth watch of the night he came to them, walking on the sea. He meant to pass by them,', textZh: '看見門徒因風不順，搖櫓甚苦。夜裡約有四更天，祂在海面上走，往門徒那裡去，想要走過他們去。' },
+    { number: 49, textEn: 'but when they saw him walking on the sea they thought it was a ghost, and cried out,', textZh: '門徒看見祂在海面上走，以為是幽靈，就喊叫起來；' },
+    { number: 50, textEn: 'for they all saw him and were terrified. But immediately he spoke to them and said, "Take heart; it is I. Do not be afraid."', textZh: '因為他們都看見了祂，且甚驚慌。耶穌連忙對他們說：「你們放心！是我，不要怕！」' },
+    { number: 51, textEn: 'And he got into the boat with them, and the wind ceased. And they were utterly astounded,', textZh: '於是到他們那裡，上了船，風就止住了；門徒心裡十分驚奇。' },
+    { number: 52, textEn: 'for they did not understand about the loaves, but their hearts were hardened.', textZh: '這是因為他們不分明白那分餅的事，心裡還是愚頑。' }
+  ],
+  'LUK:9': [
+    { number: 10, textEn: 'On their return the apostles told him all that they had done. And he took them and withdrew apart to a town called Bethsaida.', textZh: '使徒回來，將所做的事告訴耶穌，耶穌就帶他們暗暗地離開，往一座城去，那城名叫伯賽大。' },
+    { number: 11, textEn: 'When the crowds learned it, they followed him, and he welcomed them and spoke to them of the kingdom of God and cured those who had need of healing.', textZh: '但眾人知道了，就跟隨祂；耶穌便接待他們，對他們講論神國的道，醫治那些需醫的人。' },
+    { number: 12, textEn: 'Now the day began to wear away, and the twelve came and said to him, "Send the crowd away to go into the surrounding villages and countryside to find lodging and get provisions, for we are here in a desolate place."', textZh: '日頭快要平西，十二個使徒進前來說：「請叫眾人散開，他們好往周圍鄉村子裡去討宿找吃的，因為我們這裡是在野地。」' },
+    { number: 13, textEn: 'But he said to them, "You give them something to eat." They said, "We have no more than five loaves and two fish—unless we are to go and buy food for all these people."', textZh: '耶穌對他們說：「你們給他們吃吧！」門徒說：「我們不過有五個餅，兩條魚，除非我們去為這許多人買食物。」' },
+    { number: 14, textEn: 'For there were about five thousand men. And he said to his disciples, "Have them sit down in groups of about fifty each."', textZh: '那時，人數約有五千。耶穌對門徒說：「叫他們一排一排地坐下，每排大約五十個人。」' },
+    { number: 15, textEn: 'And they did so, and had them all sit down.', textZh: '門徒就照樣做，叫眾人都坐下。' },
+    { number: 16, textEn: 'And taking the five loaves and the two fish, he looked up to heaven and said a blessing over them. Then he broke the loaves and gave them to the disciples to set before the crowd.', textZh: '耶穌拿著這五個餅，兩條魚，望著天祝福，擘開，遞給門徒，擺在眾人面前。' },
+    { number: 17, textEn: 'And they all ate and were satisfied. And what was left over was picked up, twelve baskets of broken pieces.', textZh: '他們就吃，另外都吃飽了；把剩下的零碎收拾起來，裝滿了十二個籃子。' }
+  ],
+  'JHN:6': [
+    { number: 1, textEn: 'After this Jesus went away to the other side of the Sea of Galilee, which is the Sea of Tiberias.', textZh: '這事以後，耶穌渡過加利利海，就是提比哩亞海。' },
+    { number: 2, textEn: 'And a large crowd was following him, because they saw the signs that he was doing on the sick.', textZh: '有許多人因為看見祂在病人身上所行的神蹟，就跟隨祂。' },
+    { number: 3, textEn: 'Jesus went up on the mountain, and there he sat down with his disciples.', textZh: '耶穌上了山，和門徒一同坐在那裡。' },
+    { number: 4, textEn: 'Now the Passover, the feast of the Jews, was at hand.', textZh: '那時猶太人的逾越節近了。' },
+    { number: 5, textEn: 'Lifting up his eyes, then, and seeing that a large crowd was coming toward him, Jesus said to Philip, "Where are we to buy bread, so that these people may eat?"', textZh: '耶穌舉目看見許多人來，就對腓力說：「我們從哪裡買餅叫這些人吃呢？」' },
+    { number: 6, textEn: 'He said this to test him, for he himself knew what he would do.', textZh: '（祂說這話是要試驗腓力；祂自己原知道要怎樣行。）' },
+    { number: 7, textEn: 'Philip answered him, "Two hundred denarii worth of bread would not be enough for each of them to get a little."', textZh: '腓力回答說：「就是二十塊錢的餅，叫他們各人吃一點也是不夠的。」' },
+    { number: 8, textEn: 'One of his disciples, Andrew, Simon Peter\'s brother, said to him,', textZh: '有一個門徒，就是西門彼得的兄弟安得烈，對耶穌說：' },
+    { number: 9, textEn: '"There is a boy here who has five barley loaves and two fish, but what are they for so many?"', textZh: '「這裡有一個孩童，帶著五個大麥餅、兩條魚，只是分給這許多人還算什麼呢？」' },
+    { number: 10, textEn: 'Jesus said, "Have the people sit down." Now there was much grass in the place. So the men sat down, about five thousand in number.', textZh: '耶穌說：「叫眾人坐下。」那地方的草多，眾人就坐下，人數約有五千。' },
+    { number: 11, textEn: 'Jesus then took the loaves, and when he had given thanks, he distributed them to those who were seated. So also the fish, as much as they wanted.', textZh: '耶穌拿餅遞給那坐著的人；分魚也是這樣，都隨著他們所要的。' },
+    { number: 12, textEn: 'And when they had eaten their fill, he told his disciples, "Gather up the leftover fragments, that nothing may be lost."', textZh: '他們吃飽了，耶穌對門徒說：「把剩下的零碎收拾起來，免得有短缺的。」' },
+    { number: 13, textEn: 'So they gathered them up and filled twelve baskets with fragments from the five barley loaves left by those who had eaten.', textZh: '他們便將那五個大麥餅的零碎，就是眾人吃剩的，收拾起來，裝滿了十二個籃子。' },
+    { number: 14, textEn: 'When the people saw the sign that he had done, they said, "This is indeed the Prophet who is to come into the world!"', textZh: '人看見耶穌所行的神蹟，就說：「這真是那要到世間來的先知！」' },
+    { number: 16, textEn: 'When evening came, his disciples went down to the sea,', textZh: '到了晚上，祂的門徒下海邊去，' },
+    { number: 17, textEn: 'got into a boat, and started across the sea to Capernaum. It was now dark, and Jesus had not yet come to them.', textZh: '上了船，要過海往迦百農去。天已經黑了，耶穌還沒有來到他們那裡。' },
+    { number: 18, textEn: 'The sea became rough because a strong wind was blowing.', textZh: '狂風大作，海就翻騰起來。' },
+    { number: 19, textEn: 'When they had rowed about three or four miles, they saw Jesus walking on the sea and coming near the boat, and they were frightened.', textZh: '門徒搖櫓約十里或十五里，看見耶穌在海面上走，漸漸近了船，他們就害怕。' },
+    { number: 20, textEn: 'But he said to them, "It is I; do not be afraid."', textZh: '耶穌對他們說：「是我，不要怕！」' },
+    { number: 21, textEn: 'Then they were glad to take him into the boat, and immediately the boat was at the land to which they were going.', textZh: '門徒就歡喜接祂上船，船立時到了他們所要去的地方。' }
   ]
 };
 
@@ -2586,6 +2709,57 @@ export const TOPICAL_ANALYSES: Record<string, TopicalAnalysis> = {
         cantoneseExplanation: '婦人極之聰明同謙卑，佢冇反駁耶穌用「小狗」黎形容外邦人，反而順住個比喻講：就算係小狗，都有權食檯底嘅碎渣。呢度比喻佢只求耶穌恩典嘅一點點碎屑，就已經足夠醫好個女。',
         theologyEn: 'True faith does not demand rights based on merit, but humbly throws itself upon the abundant, overflowing mercy of God.',
         theologyZh: '真實的信心不憑藉自身的功德去要求權利，而是將自己完全謙卑地投靠在上帝無比豐盛、滿溢流出的恩慈憐憫之中。'
+      }
+    ]
+  },
+  'first-miraculous-catch': {
+    topicId: 'first-miraculous-catch',
+    coreHighlightsEn: [
+      { title: 'Obedience Beyond Expertise', content: 'Simon Peter was a professional fisherman who caught nothing all night, yet he submitted to Jesus\' command to let down nets in daytime deep water.' },
+      { title: 'Conviction of Sin', content: 'Witnessing divine abundance over nature caused Peter to fall on his knees, recognizing the vast holy gap between Christ and his own sinfulness.' },
+      { title: 'Higher Calling to Fish for Men', content: 'Jesus transforms Peter\'s vocation from catching fish to catching human souls for the Kingdom of God, leading them to leave all.' }
+    ],
+    coreHighlightsZh: [
+      { title: '超越專業的理性順服', content: '西門彼得作為經驗豐富的漁夫，整夜勞力一無所獲，卻能放下專業驕傲，宣告「依從你的話」下網。' },
+      { title: '對聖潔與罪的深刻體認', content: '目睹神蹟的大能與豐盛後，彼得沒有貪圖漁獲財富，而是俯伏在耶穌膝前，痛悔認罪「主啊，離開我，我是個罪人」。' },
+      { title: '得人如得魚的神聖呼召', content: '耶穌將彼得的職業昇華為屬靈使命：「從今以後，你要得人了」，門徒隨即撇下一切跟隨耶穌。' }
+    ],
+    gospelComparisons: [
+      {
+        aspectEn: 'Uniqueness in Luke',
+        aspectZh: '路加福音獨家細節',
+        matthewTextEn: 'Matthew 4:18-22 records the calling of Peter, Andrew, James, John by the sea, but omits the miraculous catch narrative.',
+        matthewTextZh: '馬太福音 4:18-22 簡明記錄耶穌在海邊呼召彼得、安得烈、雅各、約翰，但未包含神奇捕魚的神蹟細節。',
+        markTextEn: 'Mark 1:16-20 records the call at the seaside, omitting the miracle of the net-breaking catch.',
+        markTextZh: '馬可福音 1:16-20 記錄耶穌在海邊呼召門徒，同樣未收錄捕魚神蹟。',
+        lukeTextEn: 'Luke 5:1-11 uniquely ties the calling of the first disciples to this profound miracle of divine supply and conviction.',
+        lukeTextZh: '路加福音獨家收錄神奇捕魚神蹟，將門徒的呼召與神聖主權的顯現、彼得的認罪悔改緊密結合在一起。'
+      }
+    ],
+    cantoneseExplanations: [
+      {
+        phrase: '整夜勞力，並沒有打著什麼',
+        meaningEn: 'Worked hard all night and caught nothing',
+        meaningZh: '辛苦極成晚，一條魚都打唔到',
+        cantoneseExplanation: '形容彼得同夥伴作為專業漁夫，用盡經驗同精力做咗一整夜，結果白忙一場，體會到人憑自己能力嘅有限與空虛。',
+        theologyEn: 'Symbolizes human effort apart from God\'s direction. Human strength alone yields emptiness, preparing the heart for divine reliance.',
+        theologyZh: '象徵離開神指揮的人類努力。單靠人的經驗與血氣勞碌，終究歸於虛空，唯有主的臨在與話語才能帶來真正的豐盛。'
+      },
+      {
+        phrase: '依從你的話，我就下網',
+        meaningEn: 'Because you say so, I will let down the nets',
+        meaningZh: '既然你開到口，我就照你意思去下網',
+        cantoneseExplanation: '彼得雖然覺得白費氣力，但出於對耶穌話語嘅敬重，願意志伏自己嘅理性同經驗，照住耶穌嘅指令再試一次。',
+        theologyEn: 'The vital step of faith: surrendering professional pride and human logic to the authority of Christ\'s command.',
+        theologyZh: '信心的關鍵躍升：放下專業的驕傲與世俗邏輯，完全臣服並順從基督話語的絕對權能。'
+      },
+      {
+        phrase: '主啊，離開我，我是個罪人！',
+        meaningEn: 'Go away from me, Lord; I am a sinful man!',
+        meaningZh: '主呀，你走啦，我係個罪人，唔配同你一齊',
+        cantoneseExplanation: '彼得一睇到滿船嘅魚，即刻意識到眼前呢位唔係普通人，而係神聖嘅主。喺至聖嘅神面前，佢突感到自己嘅卑微同罪惡感，俯伏跪倒。',
+        theologyEn: 'The biblical pattern of divine revelation: encountering God\'s holy presence immediately exposes human sinfulness and prompts deep humility.',
+        theologyZh: '聖經中神聖啟示的經典模式：當人真實遇見上帝的聖潔大能時，首先感受到的不是貪婪或自誇，而是對自我罪惡的震懾與痛悔。'
       }
     ]
   }

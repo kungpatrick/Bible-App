@@ -75,7 +75,7 @@ export const Sidebar: React.FC = () => {
     }
 
     // 8. Walking on water check (MAT 14, MRK 6, JHN 6)
-    if (hasMat14 && hasMrk6 && hasJhn6 && !hasLuk9) {
+    if ((hasMat14 && hasMrk6 && !hasLuk9) || (hasMat14 && hasMrk6 && hasJhn6 && !hasLuk9)) {
       activeTopicId = 'walk-on-water';
     }
 

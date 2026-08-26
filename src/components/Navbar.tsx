@@ -85,8 +85,8 @@ export const Navbar: React.FC = () => {
       return;
     }
 
-    // Check if it matches a topic ID directly
-    const matchedTopic = TOPICS.find(t => t.id === query || t.titleEn.toLowerCase() === query.toLowerCase());
+    // Check if it matches a topic ID or title directly
+    const matchedTopic = TOPICS.find(t => t.id === query || t.titleEn.toLowerCase() === query.toLowerCase() || t.titleZh.toLowerCase() === query.toLowerCase());
     if (matchedTopic) {
       setSelectedTopicId(matchedTopic.id);
       setMultiPassages(null);
