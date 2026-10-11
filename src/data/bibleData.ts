@@ -379,20 +379,9 @@ export const TOPICS: Topic[] = [
     ]
   },
   {
-    id: 'heal-centurion-servant',
-    titleEn: "7. Healing the Centurion's Servant",
-    titleZh: '7. 醫治百夫長僕人的神蹟',
-    descriptionEn: 'Jesus marvels at the faith of a Roman centurion and heals his paralyzed servant from a distance with a spoken word.',
-    descriptionZh: '耶穌稀奇羅馬百夫長莫大的信心，僅憑一句話便隔空醫治了他病得快要死、痛苦不堪的僕人。',
-    references: [
-      { bookId: 'MAT', chapter: 8, verseStart: 5, verseEnd: 13 },
-      { bookId: 'LUK', chapter: 7, verseStart: 1, verseEnd: 10 }
-    ]
-  },
-  {
     id: 'heal-paralytic',
-    titleEn: '8. Jesus Heals a Paralytic',
-    titleZh: '8. 耶穌醫治癱子的神蹟',
+    titleEn: '7. Jesus Heals a Paralytic',
+    titleZh: '7. 耶穌醫治癱子的神蹟',
     descriptionEn: 'Jesus demonstrates His authority to forgive sins by healing a paralyzed man lowered through a roof by his friends.',
     descriptionZh: '耶穌藉著醫治一個被朋友從屋頂縋下的癱子，在眾人面前公開證明祂擁有赦罪的權柄。',
     references: [
@@ -403,8 +392,8 @@ export const TOPICS: Topic[] = [
   },
   {
     id: 'heal-withered-hand',
-    titleEn: '9. Jesus Heals a Withered Hand on the Sabbath',
-    titleZh: '9. 耶穌安息日醫治枯乾手的人',
+    titleEn: '8. Jesus Heals a Withered Hand on the Sabbath',
+    titleZh: '8. 耶穌安息日醫治枯乾手的人',
     descriptionEn: 'Jesus challenges Sabbath traditions by healing a man with a withered hand, showing that doing good is lawful on the Sabbath.',
     descriptionZh: '耶穌在安息日醫治一個手部枯乾的人，以行動表明安息日行善和救命是合乎神心意的。',
     references: [
@@ -414,21 +403,9 @@ export const TOPICS: Topic[] = [
     ]
   },
   {
-    id: 'raise-widow-son',
-    titleEn: "10. Raising the Widow's Son at Nain",
-    titleZh: '10. 醫治拿因城寡婦的兒子（兼具復活）',
-    descriptionEn: 'Moved with compassion for a grieving widow, Jesus stops a funeral procession and commands the dead young man to sit up and speak.',
-    descriptionZh: '耶穌憐憫拿因城痛失獨子的寡婦，上前按住送殯的槓子，吩咐已死的人起來，那人便坐起說話。',
-    references: [
-      { bookId: 'LUK', chapter: 7, verseStart: 11, verseEnd: 17 }
-    ],
-    date: '10/2',
-    leader: 'Ada'
-  },
-  {
     id: 'heal-multitude-plain',
-    titleEn: 'Healing a Multitude on a Plain',
-    titleZh: '醫治平原上的許多病人',
+    titleEn: '9. Healing a Multitude on a Plain',
+    titleZh: '9. 醫治平原上的許多病人',
     descriptionEn: 'Jesus comes down to a level place with His disciples and apostles, where crowds from Judea, Jerusalem, Tyre, and Sidon seek to touch Him because power comes out from Him to heal them all.',
     descriptionZh: '耶穌同使徒下了山，站在平原上，有許多百姓從各處前來要聽祂講道並指望醫治疾病，有能力從祂身上發出來，醫好了眾人。',
     references: [
@@ -438,9 +415,32 @@ export const TOPICS: Topic[] = [
     leader: 'Vivien'
   },
   {
+    id: 'heal-centurion-servant',
+    titleEn: "10. Healing the Centurion's Servant",
+    titleZh: '10. 醫治百夫長僕人的神蹟',
+    descriptionEn: 'Jesus marvels at the faith of a Roman centurion and heals his paralyzed servant from a distance with a spoken word.',
+    descriptionZh: '耶穌稀奇羅馬百夫長莫大的信心，僅憑一句話便隔空醫治了他病得快要死、痛苦不堪的僕人。',
+    references: [
+      { bookId: 'MAT', chapter: 8, verseStart: 5, verseEnd: 13 },
+      { bookId: 'LUK', chapter: 7, verseStart: 1, verseEnd: 10 }
+    ]
+  },
+  {
+    id: 'raise-widow-son',
+    titleEn: "11. Raising the Widow's Son at Nain",
+    titleZh: '11. 醫治拿因城寡婦的兒子（兼具復活）',
+    descriptionEn: 'Moved with compassion for a grieving widow, Jesus stops a funeral procession and commands the dead young man to sit up and speak.',
+    descriptionZh: '耶穌憐憫拿因城痛失獨子的寡婦，上前按住送殯的槓子，吩咐已死的人起來，那人便坐起說話。',
+    references: [
+      { bookId: 'LUK', chapter: 7, verseStart: 11, verseEnd: 17 }
+    ],
+    date: '10/2',
+    leader: 'Ada'
+  },
+  {
     id: 'calm-storm',
-    titleEn: '11. Calming the Storm on the Sea',
-    titleZh: '11. 平靜風和海',
+    titleEn: '12. Calming the Storm on the Sea',
+    titleZh: '12. 平靜風和海',
     descriptionEn: 'Jesus rebukes the raging wind and waves during a violent tempest, causing the disciples to marvel at His authority over nature.',
     descriptionZh: '在加利利海陡起暴風時，耶穌斥責風和浪，平靜風和海，門徒驚奇於連風和水都聽從了祂。',
     references: [
@@ -451,8 +451,8 @@ export const TOPICS: Topic[] = [
   },
   {
     id: 'exorcise-legion',
-    titleEn: '12. Exorcism of Legion (Pigs)',
-    titleZh: '12. 格拉森釋放被群鬼附身的人',
+    titleEn: '13. Exorcism of Legion (Pigs)',
+    titleZh: '13. 格拉森釋放被群鬼附身的人',
     descriptionEn: 'Jesus casts out a legion of demons from a violent man living in the tombs, permitting them to enter a herd of pigs that drown in the sea.',
     descriptionZh: '耶穌將住在墳塋、被稱為「群」的污鬼從一個極其兇猛的人身上趕出，鬼入豬群，豬群墜海淹死。',
     references: [
@@ -462,23 +462,9 @@ export const TOPICS: Topic[] = [
     ]
   },
   {
-    id: 'raise-jairus-daughter',
-    titleEn: "14. Raising Jairus' Daughter from the Dead",
-    titleZh: '14. 睚魯女兒復活',
-    descriptionEn: 'Jesus enters the home of the synagogue leader Jairus, takes the hand of the dead 12-year-old girl, and commands: "Little girl, arise!"',
-    descriptionZh: '耶穌來到睚魯的家，拉著已死去的十二歲女孩的手，吩咐她起來，女孩子的靈魂便立刻回來並站立。',
-    references: [
-      { bookId: 'MAT', chapter: 9, verseStart: 18, verseEnd: 26 },
-      { bookId: 'MRK', chapter: 5, verseStart: 21, verseEnd: 43 },
-      { bookId: 'LUK', chapter: 8, verseStart: 40, verseEnd: 56 }
-    ],
-    date: '10/16',
-    leader: 'Kin'
-  },
-  {
     id: 'heal-bleeding-woman',
-    titleEn: '13. Healing the Woman with Bleeding',
-    titleZh: '13. 醫治患血漏的婦人',
+    titleEn: '14. Healing the Woman with Bleeding',
+    titleZh: '14. 醫治患血漏的婦人',
     descriptionEn: 'A woman suffering from a chronic discharge of blood for twelve years touches the hem of Jesus\' garment in faith and is instantly healed.',
     descriptionZh: '一個患了十二年血漏的女人憑信心摸了耶穌的衣裳繸子，她的漏源立刻乾涸，痊癒得救。',
     references: [
@@ -490,21 +476,23 @@ export const TOPICS: Topic[] = [
     leader: 'Stephnie'
   },
   {
-    id: 'special-sharing',
-    titleEn: 'Special Sharing & Testimonies',
-    titleZh: '特別分享',
-    descriptionEn: 'Special topical study summary, personal reflections, and testimony fellowship on the miracles of Jesus (led by Vivien).',
-    descriptionZh: '耶穌神蹟專題研讀系列特別分享、個人感悟與見證交通（由 Vivien 負責）。',
+    id: 'raise-jairus-daughter',
+    titleEn: "15. Raising Jairus' Daughter from the Dead",
+    titleZh: '15. 睚魯女兒復活',
+    descriptionEn: 'Jesus enters the home of the synagogue leader Jairus, takes the hand of the dead 12-year-old girl, and commands: "Little girl, arise!"',
+    descriptionZh: '耶穌來到睚魯的家，拉著已死去的十二歲女孩的手，吩咐她起來，女孩子的靈魂便立刻回來並站立。',
     references: [
-      { bookId: 'JHN', chapter: 20, verseStart: 30, verseEnd: 31 }
+      { bookId: 'MAT', chapter: 9, verseStart: 18, verseEnd: 26 },
+      { bookId: 'MRK', chapter: 5, verseStart: 21, verseEnd: 43 },
+      { bookId: 'LUK', chapter: 8, verseStart: 40, verseEnd: 56 }
     ],
-    date: '10/30',
-    leader: 'Vivien'
+    date: '10/16',
+    leader: 'Kin'
   },
   {
     id: 'exorcise-mute-demoniac',
-    titleEn: '15. Exorcising a Mute Demoniac',
-    titleZh: '15. 趕出啞巴鬼使人說話',
+    titleEn: '16. Exorcising a Mute Demoniac',
+    titleZh: '16. 趕出啞巴鬼使人說話',
     descriptionEn: 'Jesus casts out a demon from a man who was mute, enabling him to speak instantly, which amazes the crowds but angers the Pharisees.',
     descriptionZh: '耶穌趕出附在一個啞巴身上的鬼，鬼出去後，啞巴立刻說出話來，眾人都驚奇，法利賽人卻心懷惡意。',
     references: [
@@ -514,8 +502,8 @@ export const TOPICS: Topic[] = [
   },
   {
     id: 'heal-bethesda-invalid',
-    titleEn: '16. Healing the Bethesda Pool Invalid',
-    titleZh: '16. 醫治畢士大池邊癱瘓三十八年的人',
+    titleEn: '17. Healing the Bethesda Pool Invalid',
+    titleZh: '17. 醫治畢士大池邊癱瘓三十八年的人',
     descriptionEn: 'On the Sabbath, Jesus heals a man paralyzed for thirty-eight years at the Pool of Bethesda, commanding him to carry his mat.',
     descriptionZh: '在安息日，耶穌在耶路撒冷畢士大池邊醫治了一個病了三十八年的人，吩咐他拿起褥子行走，引起宗教領袖的不滿。',
     references: [
@@ -524,8 +512,8 @@ export const TOPICS: Topic[] = [
   },
   {
     id: 'feed-5000',
-    titleEn: '17. Feeding the 5,000',
-    titleZh: '17. 五餅二魚餵飽五千人',
+    titleEn: '18. Feeding the 5,000',
+    titleZh: '18. 五餅二魚餵飽五千人',
     descriptionEn: 'Jesus multiplies five loaves and two fish to feed over five thousand people in a desolate place, with twelve baskets of leftovers remaining.',
     descriptionZh: '耶穌在野地裡望天祝謝，分開五個大麥餅和兩條小魚，五餅二魚餵飽五千人，收拾的零碎裝滿了十二個籃子。',
     references: [
@@ -537,8 +525,8 @@ export const TOPICS: Topic[] = [
   },
   {
     id: 'walk-on-water',
-    titleEn: '18. Jesus Walking on the Water',
-    titleZh: '18. 在海面上行走',
+    titleEn: '19. Jesus Walking on the Water',
+    titleZh: '19. 在海面上行走',
     descriptionEn: 'Jesus walks on the wind-swept Sea of Galilee in the dark to reach His struggling disciples in their boat, and Peter temporarily walks on water.',
     descriptionZh: '在風浪大作的夜間，耶穌在海面上行走朝向因搖櫓甚苦的門徒走去，彼得也因信在水面上行走了一段。',
     references: [
@@ -549,8 +537,8 @@ export const TOPICS: Topic[] = [
   },
   {
     id: 'exorcise-canaanite-woman-daughter',
-    titleEn: "19. Exorcising the Canaanite Woman's Daughter",
-    titleZh: '19. 趕出迦南婦人女兒身上的鬼',
+    titleEn: "20. Exorcising the Canaanite Woman's Daughter",
+    titleZh: '20. 趕出迦南婦人女兒身上的鬼',
     descriptionEn: 'Jesus tests and commends the great faith of a Canaanite woman, healing her demon-possessed daughter from a distance.',
     descriptionZh: '耶穌在推羅、西頓境內考驗並稱讚了一位外邦迦南婦人極大的信心，隨即隔空醫治了她被鬼附、痛苦不堪的女兒。',
     references: [
@@ -560,8 +548,8 @@ export const TOPICS: Topic[] = [
   },
   {
     id: 'feed-4000',
-    titleEn: '20. Feeding the 4,000',
-    titleZh: '20. 七餅與幾條小魚餵飽四千人',
+    titleEn: '21. Feeding the 4,000',
+    titleZh: '21. 七餅與幾條小魚餵飽四千人',
     descriptionEn: 'Compassionate for a crowd that had been with Him for three days, Jesus multiplies seven loaves and a few small fish to feed four thousand.',
     descriptionZh: '耶穌憐憫同祂在曠野待了三天、無物可吃的群眾，用七個餅和幾條小魚餵飽了四千人，零碎裝滿了七個筐子。',
     references: [
@@ -571,8 +559,8 @@ export const TOPICS: Topic[] = [
   },
   {
     id: 'heal-born-blind',
-    titleEn: '21. Healing the Man Born Blind',
-    titleZh: '21. 醫治生來就瞎眼的人',
+    titleEn: '22. Healing the Man Born Blind',
+    titleZh: '22. 醫治生來就瞎眼的人',
     descriptionEn: 'Jesus spits on the ground to make mud, anoints the eyes of a man born blind, and commands him to wash in the Pool of Siloam.',
     descriptionZh: '耶穌用唾沫和泥抹在生來瞎眼者的眼睛上，打發他往西羅亞池子裡去洗，他洗完後便重見光明。',
     references: [
@@ -581,8 +569,8 @@ export const TOPICS: Topic[] = [
   },
   {
     id: 'raise-lazarus',
-    titleEn: '22. Raising Lazarus from the Dead',
-    titleZh: '22. 使死去四天的拉撒路復活',
+    titleEn: '23. Raising Lazarus from the Dead',
+    titleZh: '23. 使死去四天的拉撒路復活',
     descriptionEn: 'Jesus travels to Bethany, calls out "Lazarus, come out!" to a tomb sealed for four days, demonstrating His power over death.',
     descriptionZh: '耶穌來到拉撒路被葬四天的墳墓前大聲呼叫：「拉撒路出來！」死人就出來了，證明耶穌是復活與生命。',
     references: [
@@ -591,8 +579,8 @@ export const TOPICS: Topic[] = [
   },
   {
     id: 'heal-blind-bartimaeus',
-    titleEn: '23. Healing Blind Bartimaeus',
-    titleZh: '23. 在耶利哥醫治瞎子巴底買',
+    titleEn: '24. Healing Blind Bartimaeus',
+    titleZh: '24. 在耶利哥醫治瞎子巴底買',
     descriptionEn: 'As Jesus leaves Jericho, a persistent blind beggar cries out for mercy. Impressed by his faith, Jesus restores his sight immediately.',
     descriptionZh: '耶穌出耶利哥時，瞎子巴底買大聲呼喊求人子憐憫，耶穌見他的信心，說：「你的信救了你」，他立刻能看見。',
     references: [
@@ -603,14 +591,26 @@ export const TOPICS: Topic[] = [
   },
   {
     id: 'curse-fig-tree',
-    titleEn: '24. Cursing the Withered Fig Tree',
-    titleZh: '24. 咒詛無花果樹使其立刻枯乾',
+    titleEn: '25. Cursing the Withered Fig Tree',
+    titleZh: '25. 咒詛無花果樹使其立刻枯乾',
     descriptionEn: 'Jesus curses a leafy but fruitless fig tree on His way to Jerusalem, which withers by the next morning, teaching a lesson on faith and fruitfulness.',
     descriptionZh: '耶穌在耶路撒冷路上咒詛了一棵葉子茂密卻毫無果子的無花果樹，樹隨即枯乾，以此教導信心與屬靈生命的果效。',
     references: [
       { bookId: 'MAT', chapter: 21, verseStart: 18, verseEnd: 22 },
       { bookId: 'MRK', chapter: 11, verseStart: 12, verseEnd: 14 }
     ]
+  },
+  {
+    id: 'special-sharing',
+    titleEn: '26. Special Sharing & Testimonies',
+    titleZh: '26. 特別分享',
+    descriptionEn: 'Special topical study summary, personal reflections, and testimony fellowship on the miracles of Jesus (led by Vivien).',
+    descriptionZh: '耶穌神蹟專題研讀系列特別分享、個人感悟與見證交通（由 Vivien 負責）。',
+    references: [
+      { bookId: 'JHN', chapter: 20, verseStart: 30, verseEnd: 31 }
+    ],
+    date: '10/30',
+    leader: 'Vivien'
   },
   {
     id: 'creation',
