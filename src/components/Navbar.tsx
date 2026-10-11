@@ -6,7 +6,7 @@ import {
   BOOKS, 
   TOPICS 
 } from '../data/bibleData';
-import { Search, Sun, Moon, BookOpen, Columns, Type, Sparkles, Book, Compass, ChevronDown, ChevronLeft, ChevronRight } from 'lucide-react';
+import { Search, Sun, Moon, BookOpen, Columns, Type, Sparkles, Book, Compass, ChevronDown, ChevronLeft, ChevronRight, Calendar } from 'lucide-react';
 import { SearchSuggestion } from '../types';
 
 export const Navbar: React.FC = () => {
@@ -304,29 +304,87 @@ export const Navbar: React.FC = () => {
               </button>
 
               {showTopicDropdown && (
-                <div className="absolute left-0 mt-2 w-80 rounded-xl border border-slate-100 dark:border-slate-800 sepia-mode:border-card bg-white dark:bg-slate-900 sepia-mode:bg-amber-50 shadow-xl p-3 z-50 animate-slide-up flex flex-col max-h-[460px]">
-                  <span className="block text-[9px] font-bold text-slate-400 uppercase tracking-wider px-2 pb-2 border-b border-slate-100 dark:border-slate-800 sepia-mode:border-card shrink-0">
-                    Study Topics | 主題研讀索引
-                  </span>
-                  <div className="overflow-y-auto flex-1 mt-2 pr-1 space-y-1">
-                    {TOPICS.map((topic) => (
-                      <button
-                        key={topic.id}
-                        onClick={() => {
-                          setSelectedTopicId(topic.id);
-                          setShowTopicDropdown(false);
-                        }}
-                        className="w-full text-left p-2.5 rounded-lg text-xs hover:bg-slate-100 dark:hover:bg-slate-800 sepia-mode:hover:bg-amber-100/50 transition-colors text-slate-700 dark:text-slate-300 sepia-mode:text-amber-950"
-                      >
-                        <div className="font-semibold flex items-center space-x-1">
-                          <Sparkles size={12} className="text-amber-500" />
-                          <span>{topic.titleZh}</span>
-                        </div>
-                        <div className="text-[10px] text-slate-400 dark:text-slate-500 mt-0.5 pl-3.5">
-                          {topic.titleEn}
-                        </div>
-                      </button>
-                    ))}
+                <div className="absolute left-0 mt-2 w-80 sm:w-96 rounded-xl border border-slate-100 dark:border-slate-800 sepia-mode:border-card bg-white dark:bg-slate-900 sepia-mode:bg-amber-50 shadow-xl p-3 z-50 animate-slide-up flex flex-col max-h-[500px]">
+                  
+                  {/* Scheduled Studies Header */}
+                  <div className="flex items-center justify-between px-2 pb-2 border-b border-slate-100 dark:border-slate-800 sepia-mode:border-card shrink-0">
+                    <span className="text-[10px] font-bold text-indigo-600 dark:text-indigo-400 uppercase tracking-wider flex items-center space-x-1">
+                      <Calendar size={12} className="mr-1 inline text-indigo-500" />
+                      <span>Scheduled Studies | 查經進度</span>
+                    </span>
+                    <span className="text-[9px] text-slate-400 font-medium">十月份</span>
+                  </div>
+
+                  <div className="overflow-y-auto flex-1 mt-1 pr-1 space-y-2">
+                    {/* 1. Scheduled Studies Section */}
+                    <div className="space-y-1">
+                      {TOPICS.filter((t) => t.date).map((topic) => (
+                        <button
+                          key={topic.id}
+                          onClick={() => {
+                            setSelectedTopicId(topic.id);
+                            setShowTopicDropdown(false);
+                          }}
+                          className="w-full text-left p-2 rounded-lg text-xs hover:bg-indigo-50/70 dark:hover:bg-indigo-950/40 sepia-mode:hover:bg-amber-100/70 transition-all text-slate-700 dark:text-slate-300 sepia-mode:text-amber-950 group"
+                        >
+                          <div className="font-semibold flex items-center justify-between">
+                            <div className="flex items-center space-x-1.5 min-w-0">
+                              <Sparkles size={12} className="text-amber-500 shrink-0" />
+                              <span className="truncate group-hover:text-indigo-600 dark:group-hover:text-indigo-400">{topic.titleZh}</span>
+                            </div>
+                            <div className="flex items-center space-x-1 shrink-0 ml-2">
+                              {topic.date && (
+                                <span className="text-[9px] px-1.5 py-0.5 rounded bg-indigo-50 dark:bg-indigo-950/70 text-indigo-600 dark:text-indigo-400 font-medium">
+                                  {topic.date}
+                                </span>
+                              )}
+                              {topic.leader && (
+                                <span className="text-[9px] px-1.5 py-0.5 rounded bg-amber-50 dark:bg-amber-950/70 text-amber-700 dark:text-amber-400 font-medium">
+                                  {topic.leader}
+                                </span>
+                              )}
+                            </div>
+                          </div>
+                          <div className="text-[10px] text-slate-400 dark:text-slate-500 mt-0.5 pl-4">
+                            {topic.titleEn}
+                          </div>
+                        </button>
+                      ))}
+                    </div>
+
+                    {/* 2. All Topics Section */}
+                    <div className="pt-2 border-t border-slate-100 dark:border-slate-800 sepia-mode:border-card">
+                      <span className="block text-[9px] font-bold text-slate-400 uppercase tracking-wider px-2 pb-1.5">
+                        All Miracle Topics | 全部神蹟研讀 ({TOPICS.length})
+                      </span>
+                      <div className="space-y-0.5">
+                        {TOPICS.map((topic) => (
+                          <button
+                            key={topic.id}
+                            onClick={() => {
+                              setSelectedTopicId(topic.id);
+                              setShowTopicDropdown(false);
+                            }}
+                            className="w-full text-left p-2 rounded-lg text-xs hover:bg-slate-100 dark:hover:bg-slate-800 sepia-mode:hover:bg-amber-100/50 transition-colors text-slate-700 dark:text-slate-300 sepia-mode:text-amber-950"
+                          >
+                            <div className="font-semibold flex items-center justify-between">
+                              <div className="flex items-center space-x-1.5 min-w-0">
+                                <Sparkles size={11} className={topic.date ? 'text-amber-500 shrink-0' : 'text-slate-400 shrink-0'} />
+                                <span className="truncate">{topic.titleZh}</span>
+                              </div>
+                              {topic.date && (
+                                <span className="text-[9px] px-1 py-0.5 rounded bg-indigo-50 dark:bg-indigo-950 text-indigo-600 dark:text-indigo-400 font-normal shrink-0 ml-1">
+                                  {topic.date}
+                                </span>
+                              )}
+                            </div>
+                            <div className="text-[10px] text-slate-400 dark:text-slate-500 mt-0.5 pl-4">
+                              {topic.titleEn}
+                            </div>
+                          </button>
+                        ))}
+                      </div>
+                    </div>
                   </div>
                 </div>
               )}

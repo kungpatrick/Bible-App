@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { useAppStore, SidebarTab } from '../store/useAppStore';
-import { COMMENTARIES, CROSS_REFERENCES, BIBLE_VERSES, STRONGS_DICTIONARY, TOPICAL_ANALYSES, BOOKS } from '../data/bibleData';
+import { COMMENTARIES, CROSS_REFERENCES, BIBLE_VERSES, STRONGS_DICTIONARY, TOPICAL_ANALYSES, BOOKS, TOPICS } from '../data/bibleData';
 import { InteractiveMap } from './InteractiveMap';
 import { FileText, Map, Link2, Key, ChevronRight, Sparkles, Split, MessageSquareCode } from 'lucide-react';
 
@@ -110,6 +110,7 @@ export const Sidebar: React.FC = () => {
 
   const [subTab, setSubTab] = useState<'commentary' | 'highlights' | 'comparison' | 'cantonese'>('commentary');
   const topicalAnalysis = activeTopicId ? TOPICAL_ANALYSES[activeTopicId] : null;
+  const activeTopic = activeTopicId ? TOPICS.find((t) => t.id === activeTopicId) : null;
 
   useEffect(() => {
     if (activeTopicId) {
@@ -183,7 +184,18 @@ export const Sidebar: React.FC = () => {
             
             {/* Sub-tabs Row for Topical Study */}
             {topicalAnalysis && (
-              <div className="flex border border-slate-200/60 dark:border-slate-800 sepia-mode:border-card rounded-lg overflow-hidden bg-slate-50 dark:bg-slate-950 p-0.5 text-xs font-semibold select-none">
+              <div className="space-y-2">
+                {activeTopic && (activeTopic.date || activeTopic.leader) && (
+                  <div className="flex items-center justify-between text-xs px-2.5 py-1.5 bg-indigo-50/70 dark:bg-indigo-950/40 rounded-lg border border-indigo-100/60 dark:border-indigo-900/40 text-indigo-900 dark:text-indigo-200">
+                    <span className="font-semibold truncate">{activeTopic.titleZh}</span>
+                    <span className="text-[10px] shrink-0 font-medium px-1.5 py-0.5 rounded bg-indigo-100 dark:bg-indigo-900 text-indigo-700 dark:text-indigo-300 ml-1">
+                      {activeTopic.date && `📅 ${activeTopic.date}`}
+                      {activeTopic.date && activeTopic.leader && ' · '}
+                      {activeTopic.leader && `👤 ${activeTopic.leader}`}
+                    </span>
+                  </div>
+                )}
+                <div className="flex border border-slate-200/60 dark:border-slate-800 sepia-mode:border-card rounded-lg overflow-hidden bg-slate-50 dark:bg-slate-950 p-0.5 text-xs font-semibold select-none">
                 <button
                   onClick={() => setSubTab('highlights')}
                   className={`flex-1 py-1 rounded-md text-center transition-all flex items-center justify-center space-x-1 ${
@@ -233,6 +245,7 @@ export const Sidebar: React.FC = () => {
                   <span className="sm:hidden">注釋</span>
                 </button>
               </div>
+            </div>
             )}
 
             {/* Sub-tab 1: Core Highlights */}

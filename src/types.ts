@@ -76,6 +76,8 @@ export interface Topic {
   descriptionEn: string;
   descriptionZh: string;
   references: TopicReference[];
+  date?: string;
+  leader?: string;
 }
 
 export interface SearchSuggestion {

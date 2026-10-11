@@ -298,9 +298,25 @@ export const ReadingPane: React.FC = () => {
                 <Sparkles size={16} />
               </span>
               <div>
-                <h3 className="font-bold text-sm text-indigo-950 dark:text-indigo-200">
-                  Topic | 主題研讀：{currentTopic.titleZh}
-                </h3>
+                <div className="flex items-center gap-2 flex-wrap">
+                  <h3 className="font-bold text-sm text-indigo-950 dark:text-indigo-200">
+                    Topic | 主題研讀：{currentTopic.titleZh}
+                  </h3>
+                  {(currentTopic.date || currentTopic.leader) && (
+                    <div className="flex items-center gap-1.5 flex-wrap">
+                      {currentTopic.date && (
+                        <span className="inline-flex items-center px-2 py-0.5 rounded-md text-[10px] font-semibold bg-indigo-100 text-indigo-700 dark:bg-indigo-900/60 dark:text-indigo-300">
+                          📅 日期: {currentTopic.date}
+                        </span>
+                      )}
+                      {currentTopic.leader && (
+                        <span className="inline-flex items-center px-2 py-0.5 rounded-md text-[10px] font-semibold bg-amber-100 text-amber-800 dark:bg-amber-900/60 dark:text-amber-300">
+                          👤 負責人: {currentTopic.leader}
+                        </span>
+                      )}
+                    </div>
+                  )}
+                </div>
                 <p className="text-xs text-slate-500 dark:text-slate-400 font-sans">
                   {currentTopic.titleEn}
                 </p>

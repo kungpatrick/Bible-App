@@ -416,12 +416,26 @@ export const TOPICS: Topic[] = [
   {
     id: 'raise-widow-son',
     titleEn: "10. Raising the Widow's Son at Nain",
-    titleZh: '10. 使拿因城寡婦之子復活',
+    titleZh: '10. 醫治拿因城寡婦的兒子（兼具復活）',
     descriptionEn: 'Moved with compassion for a grieving widow, Jesus stops a funeral procession and commands the dead young man to sit up and speak.',
     descriptionZh: '耶穌憐憫拿因城痛失獨子的寡婦，上前按住送殯的槓子，吩咐已死的人起來，那人便坐起說話。',
     references: [
       { bookId: 'LUK', chapter: 7, verseStart: 11, verseEnd: 17 }
-    ]
+    ],
+    date: '10/2',
+    leader: 'Ada'
+  },
+  {
+    id: 'heal-multitude-plain',
+    titleEn: 'Healing a Multitude on a Plain',
+    titleZh: '醫治平原上的許多病人',
+    descriptionEn: 'Jesus comes down to a level place with His disciples and apostles, where crowds from Judea, Jerusalem, Tyre, and Sidon seek to touch Him because power comes out from Him to heal them all.',
+    descriptionZh: '耶穌同使徒下了山，站在平原上，有許多百姓從各處前來要聽祂講道並指望醫治疾病，有能力從祂身上發出來，醫好了眾人。',
+    references: [
+      { bookId: 'LUK', chapter: 6, verseStart: 17, verseEnd: 19 }
+    ],
+    date: '10/9',
+    leader: 'Vivien'
   },
   {
     id: 'calm-storm',
@@ -448,28 +462,44 @@ export const TOPICS: Topic[] = [
     ]
   },
   {
-    id: 'heal-bleeding-woman',
-    titleEn: '13. Healing the Woman with Bleeding',
-    titleZh: '13. 醫治患了十二年血漏的女人',
-    descriptionEn: 'A woman suffering from a chronic discharge of blood for twelve years touches the hem of Jesus\' garment in faith and is instantly healed.',
-    descriptionZh: '一個患了十二年血漏的女人憑信心摸了耶穌的衣裳縋子，她的漏源立刻乾涸，痊癒得救。',
-    references: [
-      { bookId: 'MAT', chapter: 9, verseStart: 20, verseEnd: 22 },
-      { bookId: 'MRK', chapter: 5, verseStart: 25, verseEnd: 34 },
-      { bookId: 'LUK', chapter: 8, verseStart: 43, verseEnd: 48 }
-    ]
-  },
-  {
     id: 'raise-jairus-daughter',
     titleEn: "14. Raising Jairus' Daughter from the Dead",
-    titleZh: '14. 使會堂主管睚魯的女兒復活',
+    titleZh: '14. 睚魯女兒復活',
     descriptionEn: 'Jesus enters the home of the synagogue leader Jairus, takes the hand of the dead 12-year-old girl, and commands: "Little girl, arise!"',
     descriptionZh: '耶穌來到睚魯的家，拉著已死去的十二歲女孩的手，吩咐她起來，女孩子的靈魂便立刻回來並站立。',
     references: [
       { bookId: 'MAT', chapter: 9, verseStart: 18, verseEnd: 26 },
       { bookId: 'MRK', chapter: 5, verseStart: 21, verseEnd: 43 },
       { bookId: 'LUK', chapter: 8, verseStart: 40, verseEnd: 56 }
-    ]
+    ],
+    date: '10/16',
+    leader: 'Kin'
+  },
+  {
+    id: 'heal-bleeding-woman',
+    titleEn: '13. Healing the Woman with Bleeding',
+    titleZh: '13. 醫治患血漏的婦人',
+    descriptionEn: 'A woman suffering from a chronic discharge of blood for twelve years touches the hem of Jesus\' garment in faith and is instantly healed.',
+    descriptionZh: '一個患了十二年血漏的女人憑信心摸了耶穌的衣裳繸子，她的漏源立刻乾涸，痊癒得救。',
+    references: [
+      { bookId: 'MAT', chapter: 9, verseStart: 20, verseEnd: 22 },
+      { bookId: 'MRK', chapter: 5, verseStart: 25, verseEnd: 34 },
+      { bookId: 'LUK', chapter: 8, verseStart: 43, verseEnd: 48 }
+    ],
+    date: '10/23',
+    leader: 'Stephnie'
+  },
+  {
+    id: 'special-sharing',
+    titleEn: 'Special Sharing & Testimonies',
+    titleZh: '特別分享',
+    descriptionEn: 'Special topical study summary, personal reflections, and testimony fellowship on the miracles of Jesus (led by Vivien).',
+    descriptionZh: '耶穌神蹟專題研讀系列特別分享、個人感悟與見證交通（由 Vivien 負責）。',
+    references: [
+      { bookId: 'JHN', chapter: 20, verseStart: 30, verseEnd: 31 }
+    ],
+    date: '10/30',
+    leader: 'Vivien'
   },
   {
     id: 'exorcise-mute-demoniac',
@@ -1131,7 +1161,16 @@ export const BIBLE_VERSES: Record<string, Verse[]> = {
     { number: 5, textEn: 'For which is easier, to say, \'Your sins are forgiven,\' or to say, \'Rise and walk\'?', textZh: '或說：『你的罪赦了』，或說：『你起來行走』，哪一樣容易呢？' },
     { number: 6, textEn: 'But that you may know that the Son of Man has authority on earth to forgive sins"—he then said to the paralytic—"Rise, pick up your bed and go home."', textZh: '「但要叫你們知道，人子在地上有赦罪的權柄」；就對癱子說：「起來！拿你的褥子回家去吧。」' },
     { number: 7, textEn: 'And he rose and went home.', textZh: '那人就起來，回家去了。' },
-    { number: 8, textEn: 'When the crowds saw it, they were afraid, and they glorified God, who had given such authority to men.', textZh: '眾人看見都驚奇，就歸榮耀給神，因為祂將這樣的權柄賜給人。' }
+    { number: 8, textEn: 'When the crowds saw it, they were afraid, and they glorified God, who had given such authority to men.', textZh: '眾人看見都驚奇，就歸榮耀給神，因為祂將這樣的權柄賜給人。' },
+    { number: 18, textEn: 'While he was saying these things to them, behold, a ruler came in and knelt before him, saying, "My daughter has just died, but come and lay your hand on her, and she will live."', textZh: '耶穌說這話的時候，有一個管會堂的來拜祂，說：「我女兒剛死了，求你去按手在她身上，她就必活了。」' },
+    { number: 19, textEn: 'And Jesus rose and followed him, with his disciples.', textZh: '耶穌便起來跟著他去；門徒也跟著去。' },
+    { number: 20, textEn: 'And behold, a woman who had suffered from a discharge of blood for twelve years came up behind him and touched the fringe of his garment,', textZh: '有一個女人，患了十二年的血漏，來到耶穌背後，摸祂的衣裳繸子；' },
+    { number: 21, textEn: 'for she said to herself, "If I only touch his garment, I will be made well."', textZh: '因為她心裡說：「我只摸祂的衣裳，就必痊癒。」' },
+    { number: 22, textEn: 'Jesus turned, and seeing her he said, "Take heart, daughter; your faith has made you well." And instantly the woman was made well.', textZh: '耶穌轉過來看見她，就說：「女兒，放心！妳的信救了妳。」從那時候，女人就痊癒了。' },
+    { number: 23, textEn: 'And when Jesus came to the ruler\'s house and saw the flute players and the crowd making a commotion,', textZh: '耶穌到了管會堂的家裡，看見有吹手，又有許多人亂嚷，' },
+    { number: 24, textEn: 'he said, "Go away, for the girl is not dead but sleeping." And they laughed at him.', textZh: '就說：「退去吧！這閨女不是死了，是睡著了。」他們就嗤笑祂。' },
+    { number: 25, textEn: 'But when the crowd had been put outside, he went in and took her by the hand, and the girl arose.', textZh: '眾人既被攆出，耶穌就進去，拉著閨女的手，閨女便起來了。' },
+    { number: 26, textEn: 'And the report of this went through all that district.', textZh: '於是這風聲傳遍了那地方。' }
   ],
   'MRK:2': [
     { number: 1, textEn: 'And when he returned to Capernaum after some days, it was reported that he was at home.', textZh: '過了些日子，耶穌又進了迦百農。人聽見祂在屋裡，' },
@@ -1190,7 +1229,24 @@ export const BIBLE_VERSES: Record<string, Verse[]> = {
     { number: 22, textEn: 'One day he got into a boat with his disciples, and he said to them, "Let us go across to the other side of the lake." So they set out,', textZh: '有一天，耶穌和門徒上了船，對門徒說：「我們可以渡到湖對岸去。」他們就開了船。' },
     { number: 23, textEn: 'and as they sailed he fell asleep. And a windstorm came down on the lake, and they were filling with water and were in danger.', textZh: '正行的時候，耶穌睡著了。湖上忽然起了暴風，船將滿了水，甚是危險。' },
     { number: 24, textEn: 'And they went and woke him, saying, "Master, Master, we are perishing!" And he awoke and rebuked the wind and the raging waves, and they ceased, and there was a calm.', textZh: '門徒來叫醒了祂，說：「夫子！夫子！我們喪命啦！」耶穌醒了，斥責風浪；風浪就止住，平靜了。' },
-    { number: 25, textEn: 'He said to them, "Where is your faith?" And they were afraid, and they marveled, saying to one another, "Who then is this, that he commands even winds and water, and they obey him?"', textZh: '耶穌對他們說：「你們的信心在哪裡呢？」門徒又懼怕又驚奇，彼此說：「這到底是誰？祂吩咐風和水，連風和水也聽從祂了。」' }
+    { number: 25, textEn: 'He said to them, "Where is your faith?" And they were afraid, and they marveled, saying to one another, "Who then is this, that he commands even winds and water, and they obey him?"', textZh: '耶穌對他們說：「你們的信心在哪裡呢？」門徒又懼怕又驚奇，彼此說：「這到底是誰？祂吩咐風和水，連風和水也聽從祂了。」' },
+    { number: 40, textEn: 'Now when Jesus returned, the crowd welcomed him, for they were all waiting for him.', textZh: '耶穌回來的時候，眾人迎接祂，因為他們都等候祂。' },
+    { number: 41, textEn: 'And there came a man named Jairus, who was a ruler of the synagogue. And falling at Jesus\' feet, he implored him to come to his house,', textZh: '有一個管會堂的，名叫睚魯，來俯伏在耶穌腳前，求耶穌到他家裡去；' },
+    { number: 42, textEn: 'for he had an only daughter, about twelve years of age, and she was dying. As Jesus went, the people pressed around him.', textZh: '因他有一個獨生女兒，約有十二歲，快要死了。耶穌去的時候，眾人擁擠祂。' },
+    { number: 43, textEn: 'And there was a woman who had had a discharge of blood for twelve years, and though she had spent all her living on physicians, she could not be healed by anyone.', textZh: '有一個女人，患了十二年的血漏，在醫生手裡花盡了她一切養生的，並沒有一人能醫好她。' },
+    { number: 44, textEn: 'She came up behind him and touched the fringe of his garment, and immediately her discharge of blood ceased.', textZh: '她來到耶穌背後，摸祂的衣裳繸子，血漏立刻就止住了。' },
+    { number: 45, textEn: 'And Jesus said, "Who was it that touched me?" When all denied it, Peter said, "Master, the crowds surround you and are pressing in on you!"', textZh: '耶穌說：「摸我的是誰？」眾人都不承認。彼得和同行的人都說：「夫子，眾人擁擠緊靠著你。」' },
+    { number: 46, textEn: 'But Jesus said, "Someone touched me, for I perceive that power has gone out from me."', textZh: '耶穌說：「總有人摸我，因我覺得有能力從我身上出去。」' },
+    { number: 47, textEn: 'And when the woman saw that she was not hidden, she came trembling, and falling down before him declared in the presence of all the people why she had touched him, and how she had been immediately healed.', textZh: '那女人知道不能隱瞞，就戰戰兢兢地來俯伏在耶穌腳前，把摸祂的原故和怎樣立刻好了，當著眾人都說出來。' },
+    { number: 48, textEn: 'And he said to her, "Daughter, your faith has made you well; go in peace."', textZh: '耶穌對她說：「女兒，妳的信救了妳；平平安安地去吧！」' },
+    { number: 49, textEn: 'While he was still speaking, someone from the ruler\'s house came and said, "Your daughter is dead; do not trouble the Teacher any more."', textZh: '還說話的時候，有人從管會堂的家裡來，說：「你的女兒死了，不要勞動夫子。」' },
+    { number: 50, textEn: 'But Jesus on hearing this answered him, "Do not fear; only believe, and she will be well."', textZh: '耶穌聽見就對他說：「不要怕，只要信！你的女兒就必得救。」' },
+    { number: 51, textEn: 'And when he came to the house, he allowed no one to enter with him, except Peter and John and James, and the father and the mother of the child.', textZh: '耶穌到了他的家，除了彼得、約翰、雅各和女孩子的父母，不許別人同祂進去。' },
+    { number: 52, textEn: 'And all were weeping and mourning for her, but he said, "Do not weep, for she is not dead but sleeping."', textZh: '眾人都為這女兒哀哭捶胸。耶穌說：「不要哭！她不是死了，是睡著了。」' },
+    { number: 53, textEn: 'And they laughed at him, knowing that she was dead.', textZh: '他們曉得女兒已經死了，就嗤笑耶穌。' },
+    { number: 54, textEn: 'But taking her by the hand he called, saying, "Child, arise."', textZh: '耶穌拉著她的手，呼叫說：「女兒，起來吧！」' },
+    { number: 55, textEn: 'And her spirit returned, and she got up at once. And he directed that something should be given her to eat.', textZh: '她的靈魂便回來，她就立刻起來了。耶穌吩咐給她東西吃。' },
+    { number: 56, textEn: 'And her parents were amazed, but he charged them to tell no one what had happened.', textZh: '她的父母甚是驚奇；耶穌囑咐他們，不要把所做的事告訴人。' }
   ],
   'MAT:14': [
     { number: 13, textEn: 'Now when Jesus heard this, he withdrew from there in a boat to a desolate place by himself. But when the crowds heard it, they followed him on foot from the towns.', textZh: '耶穌聽見了，就上船離開那裡，獨自往野地裡去。眾人聽見，就從各城裡步行跟隨祂。' },
@@ -1271,6 +1327,49 @@ export const BIBLE_VERSES: Record<string, Verse[]> = {
     { number: 19, textEn: 'When they had rowed about three or four miles, they saw Jesus walking on the sea and coming near the boat, and they were frightened.', textZh: '門徒搖櫓約十里或十五里，看見耶穌在海面上走，漸漸近了船，他們就害怕。' },
     { number: 20, textEn: 'But he said to them, "It is I; do not be afraid."', textZh: '耶穌對他們說：「是我，不要怕！」' },
     { number: 21, textEn: 'Then they were glad to take him into the boat, and immediately the boat was at the land to which they were going.', textZh: '門徒就歡喜接祂上船，船立時到了他們所要去的地方。' }
+  ],
+  'LUK:6': [
+    { number: 17, textEn: 'And he came down with them and stood on a level place, with a great crowd of his disciples and a great multitude of people from all Judea and Jerusalem and the seacoast of Tyre and Sidon, who came to hear him and to be healed of their diseases.', textZh: '耶穌和他們下了山，站在一塊平地上。同站的有許多門徒，又有許多百姓，從猶太全地和耶路撒冷，並推羅、西頓的海邊來，都要聽祂講道，又指望醫治他們的病；' },
+    { number: 18, textEn: 'And those who were troubled with unclean spirits were cured.', textZh: '還有被污鬼纏磨的，也得了醫治。' },
+    { number: 19, textEn: 'And all the crowd sought to touch him, for power came out from him and healed them all.', textZh: '眾人都想要摸祂；因為有能力從祂身上發出來，醫好了他們。' }
+  ],
+  'LUK:7': [
+    { number: 11, textEn: 'Soon afterward he went to a town called Nain, and his disciples and a great crowd went with him.', textZh: '過了不多時，耶穌往一座城去，這城名叫拿因，門徒和極多的人與祂同行。' },
+    { number: 12, textEn: 'As he drew near to the gate of the town, behold, a man who had died was being carried out, the only son of his mother, and she was a widow, and a considerable crowd from the town was with her.', textZh: '將近城門，有一個死人被抬出來。這人是他母親獨生的兒子；他母親又是寡婦。有城裡的許多人同著寡婦送殯。' },
+    { number: 13, textEn: 'And when the Lord saw her, he had compassion on her and said to her, "Do not weep."', textZh: '主看見那寡婦，就動了慈心，對她說：「不要哭！」' },
+    { number: 14, textEn: 'Then he came up and touched the bier, and the bearers stood still. And he said, "Young man, I say to you, arise."', textZh: '於是進前按著槓，抬的人就站住了。耶穌說：「少年人，我吩咐你，起來！」' },
+    { number: 15, textEn: 'And the dead man sat up and began to speak, and Jesus gave him to his mother.', textZh: '那死人就坐起，並且說話。耶穌便把他交給他母親。' },
+    { number: 16, textEn: 'Fear seized them all, and they glorified God, saying, "A great prophet has arisen among us!" and "God has visited his people!"', textZh: '眾人都驚奇，歸榮耀與神，說：「有大先知在我們中間興起來了！」又說：「神眷顧了祂的百姓！」' },
+    { number: 17, textEn: 'And this report about him spread through the whole of Judea and all the surrounding country.', textZh: '祂這事的風聲就傳遍了猶太和周圍地方。' }
+  ],
+  'MRK:5': [
+    { number: 21, textEn: 'And when Jesus had crossed again in the boat to the other side, a great crowd gathered about him, and he was beside the sea.', textZh: '耶穌坐船又渡到對岸去，就有許多人到祂那裡聚集；祂正在海邊上。' },
+    { number: 22, textEn: 'Then came one of the rulers of the synagogue, Jairus by name, and seeing him, he fell at his feet', textZh: '有一個管會堂的人，名叫睚魯，來見耶穌，就俯伏在祂腳前，' },
+    { number: 23, textEn: 'and implored him earnestly, saying, "My little daughter is at the point of death. Come and lay your hands on her, so that she may be made well and live."', textZh: '再三地求祂，說：「我的小女兒快要死了，求你去按手在她身上，使她痊癒，得以活了。」' },
+    { number: 24, textEn: 'And he went with him. And a great crowd followed him and pressed around him.', textZh: '耶穌就和他同去。有許多人跟隨擁擠祂。' },
+    { number: 25, textEn: 'And there was a woman who had had a discharge of blood for twelve years,', textZh: '有一個女人，患了十二年的血漏，' },
+    { number: 26, textEn: 'and who had suffered much under many physicians, and had spent all that she had, and was no better but rather grew worse.', textZh: '在好些醫生手裡受了許多的苦，又花盡了她所有的，一點也不見好，反倒更重了。' },
+    { number: 27, textEn: 'She had heard the reports about Jesus and came up behind him in the crowd and touched his garment.', textZh: '她聽見耶穌的事，就從後頭來，雜在眾人中間，摸耶穌的衣裳，' },
+    { number: 28, textEn: 'For she said, "If I touch even his garments, I will be made well."', textZh: '意思說：「我只摸祂的衣裳，就必痊癒。」' },
+    { number: 29, textEn: 'And immediately the flow of blood dried up, and she felt in her body that she was healed of her disease.', textZh: '於是她血漏的源頭立刻乾了；她便覺得身上的災病好了。' },
+    { number: 30, textEn: 'And Jesus, perceiving in himself that power had gone out from him, immediately turned about in the crowd and said, "Who touched my garments?"', textZh: '耶穌頓時心裡覺得有能力從自己身上出去，就在眾人中間轉過來，說：「誰摸我的衣裳？」' },
+    { number: 31, textEn: 'And his disciples said to him, "You see the crowd pressing around you, and yet you say, \'Who touched me?\'"', textZh: '門徒對祂說：「你看眾人擁擠你，還說『誰摸我』嗎？」' },
+    { number: 32, textEn: 'And he looked around to see who had done it.', textZh: '耶穌周圍觀看，要見做這事的女人。' },
+    { number: 33, textEn: 'But the woman, knowing what had happened to her, came in fear and trembling and fell down before him and told him the whole truth.', textZh: '那女人知道在自己身上所成的事，就恐懼戰兢，來俯伏在耶穌跟前，將實情全告訴祂。' },
+    { number: 34, textEn: 'And he said to her, "Daughter, your faith has made you well; go in peace, and be healed of your disease."', textZh: '耶穌對她說：「女兒，妳的信救了妳，平平安安地回去吧！妳的災病痊癒了。」' },
+    { number: 35, textEn: 'While he was still speaking, there came from the ruler\'s house some who said, "Your daughter is dead. Why trouble the Teacher any further?"', textZh: '還說話的時候，有人從管會堂的家裡來，說：「你的女兒死了，何必還勞動夫子呢？」' },
+    { number: 36, textEn: 'But overhearing what they said, Jesus said to the ruler of the synagogue, "Do not fear, only believe."', textZh: '耶穌聽見所說的話，就對管會堂的說：「不要怕，只要信！」' },
+    { number: 37, textEn: 'And he allowed no one to follow him except Peter and James and John the brother of James.', textZh: '於是蒙許別人跟隨祂，除了彼得、雅各，和雅各的兄弟約翰。' },
+    { number: 38, textEn: 'They came to the house of the ruler of the synagogue, and Jesus saw a commotion, people weeping and wailing loudly.', textZh: '他們來到管會堂的家裡；耶穌看見亂嚷，並有人大大地哭泣哀號，' },
+    { number: 39, textEn: 'And when he had entered, he said to them, "Why are you making a commotion and weeping? The child is not dead but sleeping."', textZh: '進到裡面，就對他們說：「為什麼亂嚷哭泣呢？孩子不是死了，是睡著了。」' },
+    { number: 40, textEn: 'And they laughed at him. But he put them all outside and took the child\'s father and mother and those who were with him and went in where the child was.', textZh: '他們就嗤笑耶穌。耶穌把他們都攆出去，就帶著孩子的父母和跟隨的人，進了孩子所在的地方，' },
+    { number: 41, textEn: 'Taking her by the hand he said to her, "Talitha cumi," which means, "Little girl, I say to you, arise."', textZh: '就拉著孩子的手，對她說：「大利大，古米！」翻出來就是說：「閨女，我吩咐你起來！」' },
+    { number: 42, textEn: 'And immediately the girl got up and began walking (for she was twelve years of age), and they were immediately overcome with amazement.', textZh: '那閨女立時起來走；他們就大大地驚奇；閨女已經十二歲了。' },
+    { number: 43, textEn: 'And he strictly charged them that no one should know this, and told them to give her something to eat.', textZh: '耶穌切切地囑咐他們，不要叫人知道這事，又吩咐給她東西吃。' }
+  ],
+  'JHN:20': [
+    { number: 30, textEn: 'Now Jesus did many other signs in the presence of the disciples, which are not written in this book;', textZh: '耶穌在門徒面前另外行了許多神蹟，沒有記在這書上。' },
+    { number: 31, textEn: 'but these are written so that you may believe that Jesus is the Christ, the Son of God, and that by believing you may have life in his name.', textZh: '但記這些事要叫你們信耶穌是基督，是神的兒子，並且叫你們信了祂，就可以因祂的名得生命。' }
   ]
 };
 
@@ -1453,11 +1552,13 @@ export const getSearchSuggestions = (query: string): SearchSuggestion[] => {
     if (topic.titleEn.toLowerCase().includes(clean) || 
         topic.titleZh.toLowerCase().includes(clean) ||
         topic.descriptionEn.toLowerCase().includes(clean) ||
-        topic.descriptionZh.toLowerCase().includes(clean)) {
+        topic.descriptionZh.toLowerCase().includes(clean) ||
+        (topic.leader && topic.leader.toLowerCase().includes(clean)) ||
+        (topic.date && topic.date.toLowerCase().includes(clean))) {
       suggestions.push({
         type: 'topic',
-        labelEn: `📚 Topic: ${topic.titleEn}`,
-        labelZh: `📚 主題：${topic.titleZh}`,
+        labelEn: `📚 Topic: ${topic.titleEn}${topic.date ? ` (${topic.date})` : ''}`,
+        labelZh: `📚 主題：${topic.titleZh}${topic.leader ? `【${topic.date ? `${topic.date} · ` : ''}${topic.leader}】` : ''}`,
         value: topic.id,
         detailsEn: `Covers ${topic.references.map(r => `${BOOKS.find(b => b.id === r.bookId)?.nameEn} ${r.chapter}`).join(', ')}`,
         detailsZh: `包含 ${topic.references.map(r => `${BOOKS.find(b => b.id === r.bookId)?.nameZh} ${r.chapter}章`).join('、')}`
@@ -1651,7 +1752,9 @@ export const getSearchResults = (query: string, apiChapters: Record<string, Vers
     topic.titleEn.toLowerCase().includes(clean) || 
     topic.titleZh.toLowerCase().includes(clean) ||
     topic.descriptionEn.toLowerCase().includes(clean) ||
-    topic.descriptionZh.toLowerCase().includes(clean)
+    topic.descriptionZh.toLowerCase().includes(clean) ||
+    (topic.leader && topic.leader.toLowerCase().includes(clean)) ||
+    (topic.date && topic.date.toLowerCase().includes(clean))
   );
 
   const matchedConcepts = CONCEPT_MAPPINGS.filter(concept =>
@@ -2760,6 +2863,102 @@ export const TOPICAL_ANALYSES: Record<string, TopicalAnalysis> = {
         cantoneseExplanation: '彼得一睇到滿船嘅魚，即刻意識到眼前呢位唔係普通人，而係神聖嘅主。喺至聖嘅神面前，佢突感到自己嘅卑微同罪惡感，俯伏跪倒。',
         theologyEn: 'The biblical pattern of divine revelation: encountering God\'s holy presence immediately exposes human sinfulness and prompts deep humility.',
         theologyZh: '聖經中神聖啟示的經典模式：當人真實遇見上帝的聖潔大能時，首先感受到的不是貪婪或自誇，而是對自我罪惡的震懾與痛悔。'
+      }
+    ]
+  },
+  'heal-multitude-plain': {
+    topicId: 'heal-multitude-plain',
+    coreHighlightsEn: [
+      { title: 'Standing on a Level Place', content: 'After spending the night praying on the mountain and appointing the Twelve, Jesus descended to stand on a level place, demonstrating His willingness to meet ordinary people right where they are.' },
+      { title: 'Cross-Regional Appeal', content: 'People gathered not only from Judea and Jerusalem, but even from the coastal Gentile regions of Tyre and Sidon, showing that the healing grace of God breaks all borders.' },
+      { title: 'Overflowing Divine Power', content: 'Luke specifically notes that "power came out from him and healed them all." Christ is the inexhaustible source of restorative life; touching Him brings instant wholeness.' }
+    ],
+    coreHighlightsZh: [
+      { title: '站在平原上的親民基督', content: '耶穌在山上整夜禱告並設立十二使徒後，主動「下了山，站在一塊平地上」，表明基督不長留高山，而是俯就卑微，貼近並走入百姓的疾苦當中。' },
+      { title: '跨地域的恩典吸引力', content: '百姓不僅來自猶太全地和耶路撒冷，甚至遠道來自沿海的外邦境內推羅和西頓，顯明天國福音與醫治大能跨越地域與種族界限。' },
+      { title: '源源湧出的大能 (Dunamis)', content: '路加特別記載「有能力從祂身上發出來，醫好了他們」。基督並非被動的治癒管道，而是神聖生命與能力的泉源本體，凡懷著信心觸摸祂的都得拯救。' }
+    ],
+    gospelComparisons: [
+      {
+        aspectEn: 'Setting: Plain vs. Mountain',
+        aspectZh: '平原場景與登山寶訓對比',
+        matthewTextEn: 'Matthew 5:1 records Jesus going up on a mountain and sitting down to deliver the Sermon on the Mount, focusing on Kingdom law and righteousness.',
+        matthewTextZh: '馬太福音 5:1 描寫耶穌「上了山，既已坐下，門徒到祂跟前來」，開啟著名的登山寶訓，著重天國倫理與聖潔律法。',
+        markTextEn: 'Mark 3:7-12 describes Jesus withdrawing to the sea with His disciples, where great crowds pressed forward to touch Him.',
+        markTextZh: '馬可福音 3:7-12 記載耶穌同門徒退到海邊，許多人聽見祂所行的大事，蜂擁而來要摸祂以得痊癒。',
+        lukeTextEn: 'Luke 6:17 explicitly emphasizes Jesus coming down to stand on a "level place" (Sermon on the Plain) directly amongst the suffering masses.',
+        lukeTextZh: '路加福音 6:17 特意強調耶穌「下了山，站在一塊平地上」（平原講論），直接立於困苦大眾的中間，並隨即宣講對受苦者的安慰。'
+      },
+      {
+        aspectEn: 'Description of Healing Virtue',
+        aspectZh: '醫治大能的流露描述',
+        matthewTextEn: 'Broadly summarizes that Jesus healed every disease and sickness among the people without elaborating physical dynamics.',
+        matthewTextZh: '簡要概括耶穌醫治百姓各樣疾病，未細述神聖能力向外流出的物理感知。',
+        markTextEn: 'Notes that as many as had plagues pressed upon Him to touch Him (Mark 3:10).',
+        markTextZh: '描寫凡有災病的都擠著要摸祂（可 3:10）。',
+        lukeTextEn: 'Dr. Luke observes with clinical precision: "for power came out from him and healed them all" (Luke 6:19).',
+        lukeTextZh: '醫生路加生動寫道：「因為有能力（Dunamis）從祂身上發出來，醫好了他們」（路 6:19），突顯基督神聖力量主動流出的浩大恩典。'
+      }
+    ],
+    cantoneseExplanations: [
+      {
+        phrase: '站在一塊平地上',
+        meaningEn: 'Stood on a level place with the people',
+        meaningZh: '落到平地同大家企喺同一水平線',
+        cantoneseExplanation: '耶穌唔係高高在上指手劃腳，而係落返山腳平原，同一般受苦嘅升斗市民一齊企喺同一高度，好貼地咁服事大家。',
+        theologyEn: 'The condescension of the Incarnation. Christ steps down to human ground to enter into human pain.',
+        theologyZh: '道成肉身的降卑表彰。耶穌主動走入平民百姓的患難境況，與哀哭者同在。'
+      },
+      {
+        phrase: '因為有能力從祂身上發出來',
+        meaningEn: 'For power came out from Him and healed them all',
+        meaningZh: '基督身上源源不絕散發神聖大能',
+        cantoneseExplanation: '路加用咗好生動嘅字眼，好似耶穌成個人就係一個超強嘅生命發電機咁，任何帶住信心摸佢嘅人，即刻充滿電、病痛完全消失。',
+        theologyEn: 'Christ Himself is the unceasing wellspring of life and restoring power, needing no external rituals to heal and restore.',
+        theologyZh: '基督的神聖本體就是恩典與醫治的泉源，完全無需任何外在道具，祂的臨在便滿有使受造界更新復原的權柄。'
+      }
+    ]
+  },
+  'special-sharing': {
+    topicId: 'special-sharing',
+    coreHighlightsEn: [
+      { title: 'Miracles Lived Today', content: 'Concluding our study of the miracles of Jesus, special sharing focuses on bridging biblical signs with our personal walk of faith and real-life experiences.' },
+      { title: 'Thanksgiving & Edification', content: 'Fellowship members testifying to God\'s faithfulness and miraculous guidance in our families and daily challenges, building up one another in faith.' },
+      { title: 'From Signs to the Savior', content: 'Miracles are signs pointing to the Sign-giver. John 20:30-31 reminds us that these were recorded so we may believe Jesus is the Christ and have life in His name.' }
+    ],
+    coreHighlightsZh: [
+      { title: '神蹟在今日生命中的延續', content: '在完成十月份耶穌神蹟系列的研讀後，特別分享聚焦於將聖經的神蹟啟示與我們今日個人的信仰經歷相連結，見證主在日常生活中的真實帶領。' },
+      { title: '數算恩典與肢體交通', content: '團契弟兄姊妹彼此分享神在自己或家庭中的奇妙恩典，在互相傾聽與代禱中同心同行，體會信徒相通的屬靈力量。' },
+      { title: '從神蹟轉向行神蹟的主', content: '神蹟的焦點從不是神蹟本身的奇異，而是藉著神蹟認識那位滿有憐憫、權柄與慈愛的耶穌基督（約 20:30-31），因信祂的名得著豐盛生命。' }
+    ],
+    gospelComparisons: [
+      {
+        aspectEn: 'The Ultimate Purpose of Miracles',
+        aspectZh: '四福音書記錄神蹟的終極目的',
+        matthewTextEn: 'Matthew emphasizes the fulfillment of Messianic prophecies and the arrival of the Kingdom of Heaven.',
+        matthewTextZh: '馬太福音強調舊約彌賽亞預言的應驗，證明耶穌是應許降臨的君王。',
+        markTextEn: 'Mark emphasizes the authoritative, active power of Jesus as the Son of God and the Suffering Servant.',
+        markTextZh: '馬可福音強調耶穌作為神子與受苦僕人的大能行動，呼召人撇下一切跟隨祂。',
+        lukeTextEn: 'Luke highlights the Son of Man who came to seek and save the lost, caring deeply for the humble and outcast.',
+        lukeTextZh: '路加福音突顯人子對失喪者、寡婦、病患和邊緣人的深切憐憫與醫治拯救。'
+      }
+    ],
+    cantoneseExplanations: [
+      {
+        phrase: '特別分享',
+        meaningEn: 'Special sharing and reflection',
+        meaningZh: '總結分享與感恩見證',
+        cantoneseExplanation: '成個十月份查完咁多個耶穌神蹟，大家一齊坐低，傾下神喺自己生命入面點樣行大事，互相數算恩典，感情更加深厚。',
+        theologyEn: 'Communion of the saints and mutual edification, transforming text into lived testimony.',
+        theologyZh: '聖徒相通與彼此見證。將客觀的經文啟示內化為個人與社群的活潑信心。'
+      },
+      {
+        phrase: '但記這些事要叫你們信',
+        meaningEn: 'These are written so that you may believe',
+        meaningZh: '記錄低呢啲事係為咗令我地有信心',
+        cantoneseExplanation: '約翰福音二十章話齋，神蹟唔係用黎博眼球或者變魔術，而係為咗引導我地深深相信耶穌就係基督，並喺祂裡面得到豐盛嘅生命。',
+        theologyEn: 'The purpose of biblical narrative is redemptive faith and eternal life, not mere historical or intellectual curiosity.',
+        theologyZh: '聖經敘事的終極目的在於救贖性的信心與永生，而非單純滿足歷史或知性上的好奇。'
       }
     ]
   }
