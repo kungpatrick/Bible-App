@@ -536,9 +536,21 @@ export const TOPICS: Topic[] = [
     ]
   },
   {
+    id: 'peter-walk-on-water',
+    titleEn: '20. Peter Also Walking on the Water',
+    titleZh: '20. 彼得也在水面上行走',
+    descriptionEn: 'Seeing Jesus walking on the sea, Peter steps out of the boat in faith to walk on the water toward Jesus; when he sees the wind and begins to sink, Jesus immediately reaches out to save him.',
+    descriptionZh: '彼得看見耶穌在海面上行走，憑信心請求下船在水面上走向耶穌；當他因見風甚大而害怕下沉時，呼求主救他，耶穌立刻伸手拉住他。',
+    references: [
+      { bookId: 'MAT', chapter: 14, verseStart: 28, verseEnd: 31 }
+    ],
+    date: '11/6',
+    leader: 'Margret'
+  },
+  {
     id: 'exorcise-canaanite-woman-daughter',
-    titleEn: "20. Exorcising the Canaanite Woman's Daughter",
-    titleZh: '20. 趕出迦南婦人女兒身上的鬼',
+    titleEn: "21. Exorcising the Canaanite Woman's Daughter",
+    titleZh: '21. 趕出迦南婦人女兒身上的鬼',
     descriptionEn: 'Jesus tests and commends the great faith of a Canaanite woman, healing her demon-possessed daughter from a distance.',
     descriptionZh: '耶穌在推羅、西頓境內考驗並稱讚了一位外邦迦南婦人極大的信心，隨即隔空醫治了她被鬼附、痛苦不堪的女兒。',
     references: [
@@ -548,19 +560,21 @@ export const TOPICS: Topic[] = [
   },
   {
     id: 'feed-4000',
-    titleEn: '21. Feeding the 4,000',
-    titleZh: '21. 七餅與幾條小魚餵飽四千人',
+    titleEn: '22. Feeding the 4,000',
+    titleZh: '22. 七餅數魚餵飽四千人',
     descriptionEn: 'Compassionate for a crowd that had been with Him for three days, Jesus multiplies seven loaves and a few small fish to feed four thousand.',
     descriptionZh: '耶穌憐憫同祂在曠野待了三天、無物可吃的群眾，用七個餅和幾條小魚餵飽了四千人，零碎裝滿了七個筐子。',
     references: [
       { bookId: 'MAT', chapter: 15, verseStart: 32, verseEnd: 39 },
-      { bookId: 'MRK', chapter: 8, verseStart: 1, verseEnd: 9 }
-    ]
+      { bookId: 'MRK', chapter: 8, verseStart: 1, verseEnd: 10 }
+    ],
+    date: '11/13',
+    leader: 'Patrick'
   },
   {
     id: 'heal-born-blind',
-    titleEn: '22. Healing the Man Born Blind',
-    titleZh: '22. 醫治生來就瞎眼的人',
+    titleEn: '23. Healing the Man Born Blind',
+    titleZh: '23. 醫治生來就瞎眼的人',
     descriptionEn: 'Jesus spits on the ground to make mud, anoints the eyes of a man born blind, and commands him to wash in the Pool of Siloam.',
     descriptionZh: '耶穌用唾沫和泥抹在生來瞎眼者的眼睛上，打發他往西羅亞池子裡去洗，他洗完後便重見光明。',
     references: [
@@ -569,8 +583,8 @@ export const TOPICS: Topic[] = [
   },
   {
     id: 'raise-lazarus',
-    titleEn: '23. Raising Lazarus from the Dead',
-    titleZh: '23. 使死去四天的拉撒路復活',
+    titleEn: '24. Raising Lazarus from the Dead',
+    titleZh: '24. 使死去四天的拉撒路復活',
     descriptionEn: 'Jesus travels to Bethany, calls out "Lazarus, come out!" to a tomb sealed for four days, demonstrating His power over death.',
     descriptionZh: '耶穌來到拉撒路被葬四天的墳墓前大聲呼叫：「拉撒路出來！」死人就出來了，證明耶穌是復活與生命。',
     references: [
@@ -579,8 +593,8 @@ export const TOPICS: Topic[] = [
   },
   {
     id: 'heal-blind-bartimaeus',
-    titleEn: '24. Healing Blind Bartimaeus',
-    titleZh: '24. 在耶利哥醫治瞎子巴底買',
+    titleEn: '25. Healing Blind Bartimaeus',
+    titleZh: '25. 在耶利哥醫治瞎子巴底買',
     descriptionEn: 'As Jesus leaves Jericho, a persistent blind beggar cries out for mercy. Impressed by his faith, Jesus restores his sight immediately.',
     descriptionZh: '耶穌出耶利哥時，瞎子巴底買大聲呼喊求人子憐憫，耶穌見他的信心，說：「你的信救了你」，他立刻能看見。',
     references: [
@@ -591,19 +605,21 @@ export const TOPICS: Topic[] = [
   },
   {
     id: 'curse-fig-tree',
-    titleEn: '25. Cursing the Withered Fig Tree',
-    titleZh: '25. 咒詛無花果樹使其立刻枯乾',
+    titleEn: '26. Cursing the Withered Fig Tree',
+    titleZh: '26. 咒詛無花果樹使其枯乾',
     descriptionEn: 'Jesus curses a leafy but fruitless fig tree on His way to Jerusalem, which withers by the next morning, teaching a lesson on faith and fruitfulness.',
     descriptionZh: '耶穌在耶路撒冷路上咒詛了一棵葉子茂密卻毫無果子的無花果樹，樹隨即枯乾，以此教導信心與屬靈生命的果效。',
     references: [
       { bookId: 'MAT', chapter: 21, verseStart: 18, verseEnd: 22 },
-      { bookId: 'MRK', chapter: 11, verseStart: 12, verseEnd: 14 }
-    ]
+      { bookId: 'MRK', chapter: 11, verseStart: 12, verseEnd: 21 }
+    ],
+    date: '11/20',
+    leader: 'Gigi'
   },
   {
     id: 'special-sharing',
-    titleEn: '26. Special Sharing & Testimonies',
-    titleZh: '26. 特別分享',
+    titleEn: '27. Special Sharing & Testimonies',
+    titleZh: '27. 特別分享',
     descriptionEn: 'Special topical study summary, personal reflections, and testimony fellowship on the miracles of Jesus (led by Vivien).',
     descriptionZh: '耶穌神蹟專題研讀系列特別分享、個人感悟與見證交通（由 Vivien 負責）。',
     references: [
@@ -1006,13 +1022,29 @@ export const COMMENTARIES: Record<string, Commentary> = {
     ],
     paragraphsZh: [
       '在餵飽五千人之後，耶穌催門徒坐船先渡河，自己則獨自上山禱告。到了夜間，門徒因逆風搖櫓甚苦。耶穌在海面上朝著他們走去。',
-      '門徒看見耶穌在海面上走，以為是鬼怪，就驚慌呼喊。耶穌連忙對他們說：「你們放心！阻是我（It is I），不要怕！」這句「是我」在希臘原文中是 ego eimi，等同於神在舊約宣告的立約名字「我是」（I AM）。',
+      '門徒看見耶穌在海面上走，以為是鬼怪，就驚慌呼喊。耶穌連忙對他們說：「你們放心！是我（It is I），不要怕！」這句「是我」在希臘原文中是 ego eimi，等同於神在舊約宣告的立約名字「我是」（I AM）。',
       '馬太福音獨家記載了彼得嘗試在水面上朝耶穌走去，但因看風浪害怕而下沉。耶穌拉住他並一同上船，風浪就立刻平靜了，門徒隨即拜祂說：「你真是神的兒子了！」'
+    ]
+  },
+  'peter-walk-on-water': {
+    id: 'commentary-peter-walk-on-water',
+    passage: 'Matthew 14:28-31',
+    titleEn: 'Stepping Out in Faith and the Hand That Saves',
+    titleZh: '踏出信心的步伐與主拯救的手',
+    paragraphsEn: [
+      'Recorded exclusively in Matthew\'s Gospel, Peter responds to Jesus\' assurance ("It is I") with bold initiative: "Lord, if it is you, command me to come to you on the water." Rather than relying on impulse, Peter waits for the authority of Christ\'s word ("Come") before stepping out of the boat.',
+      'As long as Peter fixes his eyes on Jesus, he experiences the supernatural power of Christ, walking upon the very waves that had terrified the disciples moments earlier. However, when he shifts his gaze to the strong wind, fear replaces faith and he begins to sink.',
+      'In his desperate cry—"Lord, save me!"—Peter models the shortest yet most urgent prayer in Scripture. Jesus immediately reaches out His hand to catch him before gently addressing his "little faith" and doubt, showing that Christ\'s saving grace never fails His faltering disciples.'
+    ],
+    paragraphsZh: [
+      '這段記載為馬太福音所獨有。當耶穌宣告「是我，不要怕」後，彼得展現了勇敢的信心回應：「主，如果是你，請叫我從水面上走到你那裡去。」彼得並非憑血氣魯莽行事，而是等候主發出權柄的命令（「你來吧」），才踏出船艙。',
+      '當彼得定睛於耶穌時，他親身經歷了主超然的大能，雙腳踏在方才令眾門徒驚駭的風浪之上。然而，當他的視線轉向周遭狂烈的風勢時，環境的恐懼瞬間取代了對主話語的專注，身體便開始下沉。',
+      '在危急關頭，彼得發出了聖經中最短卻最迫切的呼求：「主啊，救我！」耶穌沒有等他靠自己掙扎，而是「立刻」伸手拉住他，隨後才溫柔地指出他的小信與疑惑，顯明主拯救的恩手永遠快過門徒的下沉。'
     ]
   },
   'feed-4000': {
     id: 'commentary-feed-4000',
-    passage: 'Matthew 15:32-39, Mark 8:1-9',
+    passage: 'Matthew 15:32-39, Mark 8:1-10',
     titleEn: 'Abundant Grace for the Gentiles',
     titleZh: '外邦邊界的豐盛恩典',
     paragraphsEn: [
@@ -1021,7 +1053,7 @@ export const COMMENTARIES: Record<string, Commentary> = {
       'While the 12 baskets in the feeding of the 5,000 represent Israel, the 7 baskets here symbolize the completion and inclusion of the Gentile nations (often represented by 7 nations of Canaan), showing that Jesus\' saving grace is universal.'
     ],
     paragraphsZh: [
-      '「給四千人吃飽」的神蹟發生在低加波利地區，這是一個以外邦人為主的區域。它在發生地點、人數以及象徵細節上，都與先前的「餵飽五千人」有顯著區別。',
+      '「七餅數魚餵飽四千人」的神蹟發生在低加波利地區，這是一個以外邦人為主的區域。它在發生地點、人數以及象徵細節上，都與先前的「五餅二魚餵飽五千人」有顯著區別。',
       '耶穌對同祂待了三天、無物可吃的群眾動了慈心。祂用七個餅和幾條小魚餵飽了四千人，收拾零碎裝滿了七個大筐子（Spyridas）。',
       '「五餅二魚」中剩下的十二個籃子代表以色列，而此處剩下的七個大筐子則象徵對外邦世界（舊約常以迦南七族代表外邦列國）的接納與豐盛供應，表明耶穌的救恩恩典是普及萬民的。'
     ]
@@ -1092,18 +1124,18 @@ export const COMMENTARIES: Record<string, Commentary> = {
   },
   'curse-fig-tree': {
     id: 'commentary-curse-fig-tree',
-    passage: 'Matthew 21:18-22, Mark 11:12-14',
+    passage: 'Matthew 21:18-22, Mark 11:12-21',
     titleEn: 'The Judgment of Fruitlessness and Power of Faith',
     titleZh: '對無果子之生命的審判與信心的宣告',
     paragraphsEn: [
-      'On His way to Jerusalem, a hungry Jesus finds a leafy fig tree but finds no fruit on it, only leaves. He curses the tree: "May no fruit ever come from you again!" The tree withers immediately.',
-      'This object lesson serves as a prophetic warning. The leafy tree represents Israel and the Temple system: showing outward religious activity but lacking the true fruit of righteousness and faith.',
-      'When the disciples marvel at how quickly the tree withered, Jesus teaches them on the power of faith and prayer, promising that with faith, they can command even mountains to be cast into the sea.'
+      'On His way to Jerusalem, a hungry Jesus finds a leafy fig tree but finds no fruit on it, only leaves. He curses the tree: "May no fruit ever come from you again!" The tree withers from the roots.',
+      'This object lesson (which Mark sandwiches around the cleansing of the Temple in Mark 11:15-19) serves as a prophetic warning. The leafy tree represents Israel and the corrupt Temple system: showing outward religious activity but lacking the true fruit of righteousness and faith.',
+      'When the disciples marvel at how the tree withered, Jesus teaches them on the power of faith and prayer, promising that with faith, they can command even mountains to be cast into the sea.'
     ],
     paragraphsZh: [
-      '在前往耶路撒冷的路上，飢餓的耶穌看見一棵茂密的無花果樹，卻在上面找不到果子，只有葉子。祂對樹說：「從今以後，你永不結果子！」那樹立刻枯乾了。',
-      '這是一個具象的先知性警告。茂密的葉子代表當時的以色列和聖殿體系：徒有虛飾的宗教外表與活動，卻缺乏公義與信心的真實果子。',
-      '當門徒驚奇這樹乾枯之快時，耶穌藉此教導他們信心的權能與禱告的應許，宣告只要有信心，即便是命令大山挪開投進海裡，也必成就。'
+      '在前往耶路撒冷的路上，飢餓的耶穌看見一棵茂密的無花果樹，卻在上面找不到果子，只有葉子。祂對樹說：「從今以後，永沒有人吃你的果子！」那樹就連根枯乾了。',
+      '這是一個具象的先知性警告（馬可福音更以「三明治結構」將潔淨聖殿夾在咒詛無花果樹與樹連根枯乾之間）。茂密的葉子代表當時的以色列和腐敗的聖殿體系：徒有虛飾的宗教外表與買賣活動，卻缺乏公義、禱告與信心的真實果子。',
+      '當門徒驚奇這樹乾枯時，耶穌藉此教導他們信心的權能與禱告的應許，宣告只要對神有信心且心裡不疑惑，即便是命令這座山挪開投進海裡，也必成就。'
     ]
   }
 };
@@ -1370,6 +1402,47 @@ export const BIBLE_VERSES: Record<string, Verse[]> = {
   'JHN:20': [
     { number: 30, textEn: 'Now Jesus did many other signs in the presence of the disciples, which are not written in this book;', textZh: '耶穌在門徒面前另外行了許多神蹟，沒有記在這書上。' },
     { number: 31, textEn: 'but these are written so that you may believe that Jesus is the Christ, the Son of God, and that by believing you may have life in his name.', textZh: '但記這些事要叫你們信耶穌是基督，是神的兒子，並且叫你們信了祂，就可以因祂的名得生命。' }
+  ],
+  'MAT:15': [
+    { number: 32, textEn: 'Then Jesus called his disciples to him and said, "I have compassion on the crowd because they have been with me now three days and have nothing to eat. And I am unwilling to send them away hungry, lest they faint on the way."', textZh: '耶穌叫門徒來，說：「我憐憫這眾人，因為他們同我在這裡已經三天，也沒有吃的了。我不願意叫他們餓著回去，恐怕在路上困乏。」' },
+    { number: 33, textEn: 'And the disciples said to him, "Where are we to get enough bread in such a desolate place to satisfy so great a crowd?"', textZh: '門徒說：「我們在這野地，哪裡有這麼多的餅，叫這許多人吃飽呢？」' },
+    { number: 34, textEn: 'And Jesus said to them, "How many loaves do you have?" They said, "Seven, and a few small fish."', textZh: '耶穌說：「你們有多少餅？」他們說：「有七個，還有幾條小魚。」' },
+    { number: 35, textEn: 'And directing the crowd to sit down on the ground,', textZh: '祂就吩咐眾人坐在地上，' },
+    { number: 36, textEn: 'he took the seven loaves and the fish, and having given thanks he broke them and gave them to the disciples, and the disciples gave them to the crowds.', textZh: '拿著這七個餅和幾條魚，祝謝了，擘開，遞給門徒；門徒又遞給眾人。' },
+    { number: 37, textEn: 'And they all ate and were satisfied. And they took up seven baskets full of the broken pieces left over.', textZh: '眾人都吃，並且吃飽了；收拾剩下的零碎，裝滿了七個筐子。' },
+    { number: 38, textEn: 'Those who ate were four thousand men, besides women and children.', textZh: '吃的人，除了婦女孩子，共有四千。' },
+    { number: 39, textEn: 'And after sending away the crowds, he got into the boat and went to the region of Magadan.', textZh: '耶穌叫眾人散去，就上船，來到馬加丹的境界。' }
+  ],
+  'MRK:8': [
+    { number: 1, textEn: 'In those days, when again a great crowd had gathered, and they had nothing to eat, he called his disciples to him and said to them,', textZh: '那時，又有許多人聚集，並沒有什麼吃的。耶穌叫門徒來，說：' },
+    { number: 2, textEn: '"I have compassion on the crowd, because they have been with me now three days and have nothing to eat.', textZh: '「我憐憫這眾人；因為他們同我在這裡已經三天，也沒有吃的了。' },
+    { number: 3, textEn: 'And if I send them away hungry to their homes, they will faint on the way. And some of them have come from far away."', textZh: '我若叫他們餓著回家，就必在路上困乏，因為其中有從遠處來的。」' },
+    { number: 4, textEn: 'And his disciples answered him, "How can one feed these people with bread here in this desolate place?"', textZh: '門徒回答說：「在這野地，從哪裡能得餅，叫這些人吃飽呢？」' },
+    { number: 5, textEn: 'And he asked them, "How many loaves do you have?" They said, "Seven."', textZh: '耶穌問他們說：「你們有多少餅？」他們說：「七個。」' },
+    { number: 6, textEn: 'And he directed the crowd to sit down on the ground. And he took the seven loaves, and having given thanks, he broke them and gave them to his disciples to set before the people; and they set them before the crowd.', textZh: '祂吩咐眾人坐在地上，就拿著這七個餅，祝謝了，擘開，遞給門徒，叫他們擺開，門徒就擺在眾人面前。' },
+    { number: 7, textEn: 'And they had a few small fish. And having blessed them, he said that these also should be set before them.', textZh: '又有幾條小魚；耶穌祝了福，就吩咐也擺在眾人面前。' },
+    { number: 8, textEn: 'And they ate and were satisfied. And they took up the broken pieces left over, seven baskets full.', textZh: '眾人都吃，並且吃飽了；收拾剩下的零碎，裝滿了七個筐子。' },
+    { number: 9, textEn: 'And there were about four thousand people. And he sent them away.', textZh: '人數約有四千。耶穌打發他們走了，' },
+    { number: 10, textEn: 'And immediately he got into the boat with his disciples and went to the district of Dalmanutha.', textZh: '隨即同門徒上船，來到大瑪努他的境內。' }
+  ],
+  'MAT:21': [
+    { number: 18, textEn: 'In the morning, as he was returning to the city, he became hungry.', textZh: '早晨回城的時候，祂餓了，' },
+    { number: 19, textEn: 'And seeing a fig tree by the wayside, he went to it and found nothing on it but only leaves. And he said to it, "May no fruit ever come from you again!" And the fig tree withered at once.', textZh: '看見路旁有一棵無花果樹，就走到跟前，在樹上找不著什麼，不過有葉子，就對樹說：「從今以後，你永不結果子！」那無花果樹就立刻枯乾了。' },
+    { number: 20, textEn: 'When the disciples saw it, they marveled, saying, "How did the fig tree wither at once?"', textZh: '門徒看見了，便希奇說：「無花果樹怎麼立刻枯乾了呢？」' },
+    { number: 21, textEn: 'And Jesus answered them, "Truly, I say to you, if you have faith and do not doubt, you will not only do what has been done to the fig tree, but even if you say to this mountain, \'Be taken up and thrown into the sea,\' it will happen.', textZh: '耶穌回答說：「我實在告訴你們，你們若有信心，不疑惑，不但能行無花果樹上所行的事，就是對這座山說：『你挪開此地，投在海裡！』也必成就。' },
+    { number: 22, textEn: 'And whatever you ask in prayer, you will receive, if you have faith."', textZh: '你們禱告，無論求什麼，只要信，就必得著。」' }
+  ],
+  'MRK:11': [
+    { number: 12, textEn: 'On the following day, when they came from Bethany, he was hungry.', textZh: '第二天，他們從伯大尼出來，耶穌餓了。' },
+    { number: 13, textEn: 'And seeing in the distance a fig tree in leaf, he went to see if he could find anything on it. When he came to it, he found nothing but leaves, for it was not the season for figs.', textZh: '遠遠地看見一棵無花果樹，樹上有葉子，就往那裡去，或者在樹上可以找著什麼。到了樹下，竟找不著什麼，不過有葉子，因為不是收無花果的時候。' },
+    { number: 14, textEn: 'And he said to it, "May no one ever eat fruit from you again." And his disciples heard it.', textZh: '耶穌就對樹說：「從今以後，永沒有人吃你的果子。」祂的門徒也聽見了。' },
+    { number: 15, textEn: 'And they came to Jerusalem. And he entered the temple and began to drive out those who sold and those who bought in the temple, and he overturned the tables of the money-changers and the seats of those who sold pigeons.', textZh: '他們來到耶路撒冷。耶穌進入聖殿，趕出殿裡作買賣的人，推倒兌換銀錢之人的桌子和賣鴿子之人的凳子；' },
+    { number: 16, textEn: 'And he would not allow anyone to carry anything through the temple.', textZh: '也不許人拿著器具從殿裡經過；' },
+    { number: 17, textEn: 'And he was teaching them and saying to them, "Is it not written, \'My house shall be called a house of prayer for all the nations\'? But you have made it a den of robbers."', textZh: '便教訓他們說：「經上不是記著說：『我的殿必稱為萬國禱告的殿』嗎？你們倒使它成為賊窩了。」' },
+    { number: 18, textEn: 'And the chief priests and the scribes heard it and were seeking a way to destroy him, for they feared him, because all the crowd was astonished at his teaching.', textZh: '祭司長和文士聽見這話，就想法子要除滅耶穌，卻又怕祂，因為眾人都希奇祂的教訓。' },
+    { number: 19, textEn: 'And when evening came they went out of the city.', textZh: '每天晚上，耶穌出城去。' },
+    { number: 20, textEn: 'As they passed by in the morning, they saw the fig tree withered away to its roots.', textZh: '早晨，他們從那裡經過，看見無花果樹連根都枯乾了。' },
+    { number: 21, textEn: 'And Peter remembered and said to him, "Rabbi, look! The fig tree that you cursed has withered."', textZh: '彼得想起耶穌的話來，就對祂說：「拉比，請看！你所咒詛的無花果樹，已經枯乾了。」' }
   ]
 };
 
@@ -2505,6 +2578,57 @@ export const TOPICAL_ANALYSES: Record<string, TopicalAnalysis> = {
       }
     ]
   },
+  'peter-walk-on-water': {
+    topicId: 'peter-walk-on-water',
+    coreHighlightsEn: [
+      { title: 'Stepping Out on Christ\'s Word', content: 'Peter does not jump out recklessly; he asks Jesus to "command" him, stepping onto the waves solely on the authority of Jesus\' invitation: "Come."' },
+      { title: 'The Shift of Focus', content: 'Peter walks supernaturally while looking at Jesus, but the moment he shifts his gaze to the strong wind, fear overtakes faith and he begins to sink.' },
+      { title: 'Immediate Saving Grace', content: 'To Peter\'s urgent three-word prayer "Lord, save me!", Jesus stretches out His hand immediately, proving His grace catches us before He corrects our doubt.' }
+    ],
+    coreHighlightsZh: [
+      { title: '憑主話語踏出安舒區', content: '彼得並非魯莽跳海，而是先求主「吩咐」（請叫我走到你那裡去），在聽見耶穌權柄的命令「你來吧」之後，才憑信跨出船艙。' },
+      { title: '視線轉移導致的下沉', content: '當彼得定睛於耶穌時，他能超然地行在水面上；但當他「見風甚大」，將焦點從主轉向環境的驚濤駭浪時，恐懼便取代信心而下沉。' },
+      { title: '「主啊，救我！」與即時恩手', content: '面對下沉危機，彼得發出最簡短迫切的禱告「主啊，救我！」耶穌「立刻」伸手拉住他，顯明主拯救的恩慈永遠快過我們的軟弱。' }
+    ],
+    gospelComparisons: [
+      {
+        aspectEn: 'Exclusivity in Matthew\'s Gospel',
+        aspectZh: '馬太福音獨家記載特點',
+        matthewTextEn: 'Exclusively records Peter walking on water (Matt 14:28-31), highlighting discipleship, "little faith" (oligopistos), and the church\'s reliance on Christ.',
+        matthewTextZh: '馬太福音 14:28-31 獨家收錄彼得行水面的經歷，突顯門徒訓練中「小信」（Oligopistos，馬太常用詞）的試煉，以及信徒唯獨仰望基督的功課。',
+        markTextEn: 'Mark 6:45-52 records Jesus walking on the sea and calming the wind, but omits Peter\'s personal episode (often attributed to Peter\'s humility in Mark\'s source).',
+        markTextZh: '馬可福音（傳統認為源於彼得的口述）記載了耶穌海面行走，卻謙卑地省略了彼得自己下水行走的片段。',
+        lukeTextEn: 'Not recorded in Luke; John 6:16-21 also records Jesus walking on the sea without mentioning Peter walking on the water.',
+        lukeTextZh: '路加福音未收錄海面行走神蹟；約翰福音 6:16-21 雖有記載耶穌履海，但同樣未提及彼得下船行走的插曲。'
+      }
+    ],
+    cantoneseExplanations: [
+      {
+        phrase: '主，如果是你，請叫我從水面上走到你那裡去',
+        meaningEn: 'Lord, if it is you, command me to come to you on the water',
+        meaningZh: '主呀，如果真係你，請你下令叫我行水面過嚟搵你',
+        cantoneseExplanation: '呢度「如果是你」喺原文語氣近似「既然係你」。彼得唔係要試探耶穌，而係因為太愛主、太想親近主，只要耶穌開一句聲下令，佢就敢放開條船行出去。',
+        theologyEn: 'True faith is anchored in the command of Christ, not human presumption. Peter seeks a word from the Lord before acting.',
+        theologyZh: '真實的信心是建立在基督的「話語與命令」之上，而非個人的盲目自信。彼得先尋求主的指令，再付諸行動。'
+      },
+      {
+        phrase: '只因見風甚大，就害怕，將要沉下去',
+        meaningEn: 'But when he saw the wind, he was afraid, and beginning to sink',
+        meaningZh: '但係一見到風浪咁勁，個心就慌，開始往下沉',
+        cantoneseExplanation: '其實彼得落船嗰陣風浪本來就好大，但起初佢雙眼望實耶穌所以行到；一分心望向周圍嘅狂風巨浪，個心即刻怯一怯，腳就軟晒沉落水。',
+        theologyEn: 'Illustrates the spiritual law of focus: looking at Christ empowers us to overcome impossible circumstances; looking at the storm breeds fear and spiritual sinking.',
+        theologyZh: '生動詮釋了屬靈焦點的法則：定睛基督使人勝過不可能的逆境；一旦將目光轉向環境的風暴，恐懼便會瓦解信心。'
+      },
+      {
+        phrase: '你這小信的人哪，為什麼疑惑呢？',
+        meaningEn: 'O you of little faith, why did you doubt?',
+        meaningZh: '你呢個小信嘅人呀，點解仲要心大心細、起疑心呢？',
+        cantoneseExplanation: '耶穌係「立刻伸手拉住他」之後先至責備佢。「疑惑」（distazo）原文意思係「企喺兩個方向中間搖擺不定」。耶穌問佢：你明明已經踏出咗第一步，點解中途又心大心細呢？',
+        theologyEn: 'The Greek "distazo" means to stand in two ways (double-minded). "Little faith" is not zero faith, but a divided faith that wavers between Christ\'s word and visible threats.',
+        theologyZh: '希臘文「疑惑」（distazo）意指「站在兩條路之間搖擺、心懷二意」。「小信」不是完全沒有信心，而是信心短暫、在主的話語與眼見的風浪之間動搖。'
+      }
+    ]
+  },
   'feed-4000': {
     topicId: 'feed-4000',
     coreHighlightsEn: [
@@ -2521,22 +2645,30 @@ export const TOPICAL_ANALYSES: Record<string, TopicalAnalysis> = {
       {
         aspectEn: 'Contrast with Feeding of 5,000',
         aspectZh: '與「五餅二魚」的關鍵字詞對比',
-        matthewTextEn: 'Uses "seven loaves", "few small fish", and "seven large baskets" (spyridas). Places it after healing in Decapolis.',
-        matthewTextZh: '使用「七個餅」、「幾條小魚」和「七個大筐子」(Spyridas)。在馬太福音中，此事件緊隨外邦地區的大量醫治之後。',
-        markTextEn: 'Uses same distinct terms, contrasting "kophinos" (5,000 baskets) with "spyrise" (4,000 baskets) in Mark 8:19-20.',
-        markTextZh: '同樣使用這些特定詞彙。後來在馬可 8:19-20 中，耶穌親自出題考門徒，將五餅二魚剩下的「籃子」與七餅二魚剩下的「筐子」做了字詞上的區分。',
+        matthewTextEn: 'Uses "seven loaves", "few small fish", and "seven large baskets" (spyridas). Concludes by sailing to the region of Magadan (Matt 15:39).',
+        matthewTextZh: '使用「七個餅」、「幾條小魚」和「七個大筐子」(Spyridas)。散會後耶穌上船來到「馬加丹」的境界（太 15:39）。',
+        markTextEn: 'Notes "some of them have come from far away" (Mark 8:3), blesses the fish separately (Mark 8:7), and sails to Dalmanutha (Mark 8:10).',
+        markTextZh: '特別補充「其中有從遠處來的」（可 8:3，常指外邦遠方），並分別為餅和幾條小魚祝謝與祝福，最後上船來到「大瑪努他」境內（可 8:10）。',
         lukeTextEn: 'Not recorded in Luke.',
         lukeTextZh: '路加福音未收錄此獨立神蹟。'
       }
     ],
     cantoneseExplanations: [
       {
+        phrase: '恐怕在路上困乏，因為其中有從遠處來的',
+        meaningEn: 'Lest they faint on the way, for some have come from far away',
+        meaningZh: '驚佢哋餓住肚行路會暈低，因為好多人係山長水遠行過嚟嘅',
+        cantoneseExplanation: '耶穌好貼心，留意到呢班人跟咗佢三日，仲有啲係由好遠嘅外邦地方行過嚟，如果唔食飽就返屋企，半路實會體力不支暈低。',
+        theologyEn: '"From far away" echoes Old Testament and Pauline language for Gentiles who were once "far off" (Eph 2:13) now drawn near to Christ\'s table.',
+        theologyZh: '「從遠處來的」在聖經神學中亦雙關那原本在應許之外、「遠離神」的外邦人（弗 2:13），如今因渴慕主道而被吸引來到基督的筵席前。'
+      },
+      {
         phrase: '裝滿了七個筐子',
         meaningEn: 'Filled seven large baskets',
         meaningZh: '執返七個大竹筐嘅零碎',
-        cantoneseExplanation: '呢度嘅「筐子」同五餅二魚嘅「籃子」唔同，係指一種可以裝得落一個人嘅大型編織竹筐，分量極大。',
+        cantoneseExplanation: '呢度嘅「筐子」同五餅二魚嘅「籃子」唔同，係指一種可以裝得落一個人（好似保羅喺大馬士革被人用筐從城牆縋落嚟嗰種）嘅大型編織筐，分量極大。',
         theologyEn: 'Spyridas is a Gentile-style large hamper. It underlines that the provision for the Gentile world is abundant, complete (number 7), and substantial.',
-        theologyZh: 'Spyridas 是外邦人常用的大竹筐。這再次修復了上帝為外邦世界所預備的恩典不僅分量巨大，且在靈性上是完全的（數字 7）。'
+        theologyZh: 'Spyridas 是外邦人常用的大型軟筐（與使徒行傳 9:25 縋下保羅的筐同字）。這印證了上帝為外邦世界所預備的恩典不僅分量巨大，且在屬靈意義上是完全的（數字 7）。'
       }
     ]
   },
@@ -2693,28 +2825,36 @@ export const TOPICAL_ANALYSES: Record<string, TopicalAnalysis> = {
   'curse-fig-tree': {
     topicId: 'curse-fig-tree',
     coreHighlightsEn: [
-      { title: 'Object Lesson of Judgment', content: 'The fig tree with leafy appearance but no fruit represents Israel and any formal religion showing outward compliance but no heart fruit.' },
-      { title: 'The Power of Prayer', content: 'Jesus uses the withered tree to teach that praying in faith can move even mountains of opposition.' },
-      { title: 'Sovereign Authority', content: 'Jesus\' command immediately changes the physical state of the tree, showing His word brings blessing or judgment.' }
+      { title: 'Object Lesson of Judgment', content: 'The fig tree with leafy appearance but no fruit represents Israel and the corrupt Temple system showing outward compliance but no heart fruit.' },
+      { title: 'The Temple Sandwich (Mark 11:12-21)', content: 'Mark sandwiches the cleansing of the Temple ("house of prayer for all nations" turned into a "den of robbers") between the cursing and the withering of the fig tree.' },
+      { title: 'The Power of Prayer & Faith', content: 'Jesus uses the withered tree to teach that praying in faith without doubting can move even mountains of opposition.' }
     ],
     coreHighlightsZh: [
       { title: '徒有其表之生命的審判', content: '無花果樹葉子茂密卻毫無果子，象徵徒有宗教外表、虛禮儀式，卻缺乏公義與仁愛果子的偽善以色列信仰體系。' },
-      { title: '移山倒海的信心禱告', content: '耶穌藉著枯乾的樹，教導門徒若有信心且不懷疑，不僅能使樹枯乾，更能命令代表重重阻礙的「大山」挪開投進海裡。' },
-      { title: '審判與祝福的權柄', content: '這是耶穌事工中唯一一個帶有審判性的神蹟，顯明祂的話語既是救恩的源頭，也是終極審判的判詞。' }
+      { title: '潔淨聖殿的「三明治結構」', content: '馬可福音 11:12-21 將「潔淨聖殿」（萬國禱告的殿變成賊窩）夾在咒詛無花果樹與樹連根枯乾之間，以枯樹預表腐敗聖殿體系的終局。' },
+      { title: '移山倒海的信心禱告', content: '耶穌藉著枯乾的樹，教導門徒若有信心且不懷疑，不僅能使樹枯乾，更能命令代表重重阻礙的「大山」挪開投進海裡。' }
     ],
     gospelComparisons: [
       {
-        aspectEn: 'Timing of Cursing and Withering',
-        aspectZh: '咒詛與枯乾的時間進程差異',
-        matthewTextEn: 'The fig tree withered "at once" (instantly) after the curse, and the disciples saw it and marvelled immediately.',
-        matthewTextZh: '最緊湊。無花果樹被咒詛後立刻枯乾了，門徒當場看見並大為驚奇。',
-        markTextEn: 'Jesus curses the tree on day one; the next morning (day two), as they passed by, the disciples saw it withered from the roots.',
-        markTextZh: '時間線清晰。第一天耶穌對樹發出咒詛；第二天清晨門徒再次經過時，才發現那棵樹連根都枯乾了，彼得進而提問。',
-        lukeTextEn: 'This miracle is not recorded in Luke.',
-        lukeTextZh: '路加福音完全沒有收錄此神蹟。'
+        aspectEn: 'Timing & Narrative Structure',
+        aspectZh: '咒詛與枯乾的時間線與結構差異',
+        matthewTextEn: 'Presents the cleansing of the Temple first, then the cursing and instant withering of the fig tree as a single continuous unit (Matt 21:18-22).',
+        matthewTextZh: '主題式緊湊結構。先記潔淨聖殿，次日早晨將咒詛無花果樹與「立刻枯乾」合為一氣呵成的教導段落（太 21:18-22）。',
+        markTextEn: 'Uses a "Markan sandwich": Day 1 curses the tree (11:12-14), cleanses the Temple (11:15-19), and Day 2 morning discovers it withered from the roots (11:20-21).',
+        markTextZh: '採用著名的「馬可三明治結構」：第一天早晨咒詛無花果樹（11:12-14），中間夾入進入聖殿趕出買賣之人（11:15-19），第二天早晨經過時彼得發現樹連根枯乾（11:20-21）。',
+        lukeTextEn: 'Omits this miracle, but records the Parable of the Barren Fig Tree in Luke 13:6-9.',
+        lukeTextZh: '未收錄此神蹟，但在路加福音 13:6-9 收錄了意義相呼應的「不結果子的無花果樹之比喻」。'
       }
     ],
     cantoneseExplanations: [
+      {
+        phrase: '找不著什麼，不過有葉子',
+        meaningEn: 'Found nothing on it but only leaves',
+        meaningZh: '搵勻全棵樹都無果子，得棚靚葉',
+        cantoneseExplanation: '巴勒斯坦嘅無花果樹通常係「先結初熟嘅小果（頁果），同時或者之後先出葉」。如果遠睇成棵樹綠油油好茂盛，照計入面一定有早熟嘅果子可以充飢；點知行埋去得個殼，完全係「虛有其表」。',
+        theologyEn: 'Botanically, early edible buds (paggim) appear with the leaves before the main fig season. Full leaves without any buds signaled a completely barren tree, mirroring the Temple\'s noisy religion devoid of spiritual fruit.',
+        theologyZh: '按當地植物學，無花果樹在正季之前會先長出可食用的初熟小果與葉子。樹葉茂盛卻連一顆初果都沒有，預告了這棵樹當年徹底不結果子，正如當時熱鬧卻毫無敬虔果子的聖殿。'
+      },
       {
         phrase: '連根都枯乾了',
         meaningEn: 'Withered away to its roots',
